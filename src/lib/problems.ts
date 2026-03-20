@@ -173,7 +173,7 @@ function calcStreak(problems: ProblemMeta[]): {
 } {
   if (problems.length === 0) return { streak: 0, longestStreak: 0 };
 
-  const dates = [...new Set(problems.map((p) => p.date_solved.slice(0, 10)))].sort();
+  const dates = Array.from(new Set(problems.map((p) => p.date_solved.slice(0, 10)))).sort();
   const today = new Date().toISOString().slice(0, 10);
 
   let streak = 0;
