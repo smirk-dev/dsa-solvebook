@@ -2,6 +2,7 @@
 
 import { useState, useMemo } from 'react';
 import Link from 'next/link';
+import { useSearchParams } from 'next/navigation';
 import { ProblemMeta, PlannedProblem, Difficulty } from '@/lib/types';
 import { DifficultyBadge } from './DifficultyBadge';
 import { TagBadge } from './TagBadge';
@@ -12,7 +13,6 @@ type AnyProblem = ProblemMeta | PlannedProblem;
 interface ProblemTableProps {
   solved: ProblemMeta[];
   planned: PlannedProblem[];
-  initialTag?: string;
 }
 
 const DIFFICULTIES: Difficulty[] = ['Easy', 'Medium', 'Hard'];
@@ -22,9 +22,11 @@ type SortDir = 'asc' | 'desc';
 
 const DIFF_ORDER: Record<Difficulty, number> = { Easy: 0, Medium: 1, Hard: 2 };
 
-export function ProblemTable({ solved, planned, initialTag }: ProblemTableProps) {
+export function ProblemTable({ solved, planned }: ProblemTableProps) {
+  const searchParams = useSearchParams();
   const [query, setQuery] = useState('');
-  const [activeTag, setActiveTag] = useState<string>(initialTag ?? '');
+  // Read ?tag= from URL on first render (e.g. from FocusCards links)
+  const [activeTag, setActiveTag] = useState<string>(searchParams.get('tag') ?? '');
   const [activeDiff, setActiveDiff] = useState<Difficulty | ''>('');
   const [showPlanned, setShowPlanned] = useState(true);
   const [showSolved, setShowSolved] = useState(true);
