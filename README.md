@@ -29,26 +29,38 @@ cd dsa-solvebook
 npm install
 ```
 
-### 2. Add GitHub Secrets
+### 2. Configure GitHub Secrets & Variables
 
-| Secret             | Description                                              |
-| ------------------ | -------------------------------------------------------- |
-| `LEETCODE_SESSION` | Value of the `LEETCODE_SESSION` cookie from your browser |
-| `LEETCODE_CSRF`    | Value of the `csrftoken` cookie                          |
-| `LEETCODE_USERNAME`| Your LeetCode username (public)                          |
+Go to your repo → **Settings → Secrets and variables → Actions**.
 
-> **How to get the cookies:** Log into leetcode.com, open DevTools → Application → Cookies → `leetcode.com`. Copy the two values above.
+**Secrets** (encrypted — use the "Secrets" tab):
+
+| Secret             | Description                            |
+| ------------------ | -------------------------------------- |
+| `LEETCODE_SESSION` | Value of the `LEETCODE_SESSION` cookie |
+| `LEETCODE_CSRF`    | Value of the `csrftoken` cookie        |
+
+**Variables** (not secret — use the "Variables" tab):
+
+| Variable            | Description                        |
+| ------------------- | ---------------------------------- |
+| `LEETCODE_USERNAME` | Your public LeetCode username      |
+
+> **How to get cookies:** Log into leetcode.com → DevTools → Application tab → Cookies → `leetcode.com`. Copy the VALUE (not the name) of `LEETCODE_SESSION` and `csrftoken`.
+>
+> **Your username** is the slug in your profile URL: `leetcode.com/u/<username>/`
+>
+> **Tip:** Cookies expire on logout. If the workflow stops syncing, re-log into LeetCode and update the two secrets.
 
 ### 3. Deploy to Vercel
 
 1. Import this repo in [Vercel](https://vercel.com).
-2. Framework: **Next.js**.
-3. Root directory: leave as `/`.
-4. Done — Vercel auto-deploys on every push.
+2. Framework: **Next.js**. Root directory: `/`. Output: leave default.
+3. Done — Vercel rebuilds automatically on every push (including automated scraper commits).
 
-### 4. Enable the GitHub Action
+### 4. Trigger the first sync
 
-The workflow at `.github/workflows/sync-leetcode.yml` runs on a cron every 4 hours. It requires the three secrets above. You can also trigger it manually from the **Actions** tab.
+Go to **Actions → Sync LeetCode Submissions → Run workflow**. This fetches your accepted submissions, creates Markdown files under `data/problems/`, and updates `data/index.json`. Subsequent runs happen automatically every 4 hours.
 
 ---
 

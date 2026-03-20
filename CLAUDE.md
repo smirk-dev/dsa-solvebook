@@ -93,13 +93,24 @@ The `splitSections()` function in [src/lib/problems.ts](src/lib/problems.ts) par
 - **LeetCode credentials** — must live exclusively in GitHub Secrets (`LEETCODE_SESSION`, `LEETCODE_CSRF`, `LEETCODE_USERNAME`). Never commit these.
 - **Scraper rate limiting** — 1.5 s sleep between problems to avoid triggering LeetCode's rate limiter.
 
-## GitHub Secrets Required
+## Credential Setup
 
-| Secret              | Where used                          |
+**GitHub Secrets** (Settings → Secrets and variables → Actions → Secrets tab):
+
+| Secret             | Description                            |
+| ------------------ | -------------------------------------- |
+| `LEETCODE_SESSION` | Value of the `LEETCODE_SESSION` cookie |
+| `LEETCODE_CSRF`    | Value of the `csrftoken` cookie        |
+
+**GitHub Variables** (same page → Variables tab — not encrypted, just avoids hardcoding):
+
+| Variable            | Description                         |
 | ------------------- | ----------------------------------- |
-| `LEETCODE_SESSION`  | Scraper cookie auth                 |
-| `LEETCODE_CSRF`     | Scraper CSRF header + cookie        |
-| `LEETCODE_USERNAME` | Passed as `--username` to scraper   |
+| `LEETCODE_USERNAME` | Public LeetCode username            |
+
+**Local development** — copy `scraper/.env.example` to `scraper/.env` and fill in values. The `main.py` uses `python-dotenv` to load it automatically.
+
+Cookies are obtained from browser DevTools → Application → Cookies → `leetcode.com`. They expire on logout — update secrets when the workflow stops syncing.
 
 ## Design System
 
