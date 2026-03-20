@@ -90,7 +90,7 @@ class LeetCodeClient:
     # ── Public API ────────────────────────────────────────────────────────────
 
     def get_recent_ac_submissions(self, username: str, limit: int = 50) -> list[Submission]:
-        """Fetch recent accepted submissions (public endpoint, no auth needed)."""
+        """Fetch recent accepted submissions (public, hard-capped at 20 by LeetCode)."""
         query = """
         query recentAcSubmissions($username: String!, $limit: Int!) {
             recentAcSubmissionList(username: $username, limit: $limit) {
@@ -114,6 +114,76 @@ class LeetCodeClient:
             )
             for s in raw
         ]
+
+    def get_all_ac_submissions(self, already_indexed: set[str]) -> list[Submission]:
+        """
+        Paginate through ALL submissions (requires auth) and return only accepted ones.
+
+        Stops early once an entire page contains only already-indexed problems —
+        this makes incremental syncs fast even with thousands of submissions.
+
+        already_indexed: set of title_slug strings already in index.json
+        """
+        query = """
+        query submissionList($offset: Int!, $limit: Int!) {
+            submissionList(offset: $offset, limit: $limit) {
+                lastKey
+                hasNext
+                submissions {
+                    id
+                    statusDisplay
+                    lang
+                    timestamp
+                    title
+                    titleSlug
+                }
+            }
+        }
+        """
+        PAGE = 20
+        offset = 0
+        seen_slugs: set[str] = set()   # deduplicate: keep first (most-recent) AC per problem
+        results: list[Submission] = []
+
+        while True:
+            logger.info("Fetching submissions page offset=%d …", offset)
+            data = self._gql(query, {"offset": offset, "limit": PAGE})
+            page = data.get("submissionList") or {}
+            raw = page.get("submissions") or []
+            has_next = page.get("hasNext", False)
+
+            new_on_page = 0
+            for s in raw:
+                if s.get("statusDisplay") != "Accepted":
+                    continue
+                slug = s["titleSlug"]
+                if slug in seen_slugs:
+                    continue                         # duplicate AC for same problem
+                seen_slugs.add(slug)
+                if slug not in already_indexed:
+                    results.append(Submission(
+                        id=str(s["id"]),
+                        title=s["title"],
+                        title_slug=slug,
+                        timestamp=str(s["timestamp"]),
+                        lang=s["lang"],
+                    ))
+                    new_on_page += 1
+
+            # If the whole page was already indexed we've caught up — stop early
+            all_indexed_on_page = all(
+                s["titleSlug"] in already_indexed
+                for s in raw
+                if s.get("statusDisplay") == "Accepted"
+            )
+            if not raw or (not has_next) or (all_indexed_on_page and offset > 0):
+                logger.info("Pagination complete — %d new AC submissions found", len(results))
+                break
+
+            offset += PAGE
+            time.sleep(0.5)   # be polite between pages
+
+        return results
 
     def get_submission_code(self, submission_id: str) -> str:
         """Fetch the actual code for a submission (requires auth)."""
