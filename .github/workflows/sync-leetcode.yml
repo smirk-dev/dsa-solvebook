@@ -28,8 +28,13 @@ on:
 
   workflow_dispatch:
     inputs:
+      full_sync:
+        description: 'Paginate through ALL submissions (use for first run or full resync)'
+        type: boolean
+        required: false
+        default: false
       limit:
-        description: 'Max recent AC submissions to fetch'
+        description: 'Recent submissions to fetch (ignored when full_sync=true)'
         required: false
         default: '50'
 
