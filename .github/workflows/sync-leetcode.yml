@@ -1,15 +1,35 @@
 name: Sync LeetCode Submissions
 
+# ─────────────────────────────────────────────────────────────────────────────
+# REQUIRED SETUP — add these in your repo:
+#   Settings → Secrets and variables → Actions → New repository secret
+#
+#   LEETCODE_SESSION  ← value of the LEETCODE_SESSION cookie (from browser DevTools)
+#   LEETCODE_CSRF     ← value of the csrftoken cookie (from browser DevTools)
+#
+# REQUIRED SETUP — add this in your repo:
+#   Settings → Secrets and variables → Actions → Variables tab → New variable
+#
+#   LEETCODE_USERNAME ← your public LeetCode username (e.g. "suryansh123")
+#                       (this is not secret, but storing it here avoids hardcoding)
+#
+# How to find your cookies:
+#   1. Log into leetcode.com
+#   2. Open DevTools → Application (Chrome) or Storage (Firefox)
+#   3. Cookies → https://leetcode.com
+#   4. Copy the VALUE of LEETCODE_SESSION and csrftoken
+# ─────────────────────────────────────────────────────────────────────────────
+
 on:
   # Run every 4 hours
   schedule:
     - cron: '0 */4 * * *'
 
-  # Allow manual trigger from the Actions tab
+  # Allow manual trigger with optional limit override
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Number of recent AC submissions to fetch'
+        description: 'Number of recent AC submissions to fetch (default: 50)'
         required: false
         default: '50'
 
@@ -18,7 +38,7 @@ jobs:
     name: Fetch & Commit New Solutions
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # needed to push commits back to the repo
+      contents: write   # required to push commits back to the repo
 
     steps:
       # ── 1. Checkout ──────────────────────────────────────────────────────────
@@ -45,8 +65,8 @@ jobs:
           LEETCODE_CSRF:    ${{ secrets.LEETCODE_CSRF }}
         run: |
           python scraper/main.py \
-            --username "${{ secrets.LEETCODE_USERNAME }}" \
-            --limit "${{ github.event.inputs.limit || '50' }}"
+            --username "${{ vars.LEETCODE_USERNAME }}" \
+            --limit    "${{ github.event.inputs.limit || '50' }}"
 
       # ── 4. Commit changes (if any) ───────────────────────────────────────────
       - name: Check for changes
