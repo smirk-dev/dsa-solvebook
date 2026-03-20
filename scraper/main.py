@@ -70,9 +70,15 @@ def main() -> None:
     client = LeetCodeClient()
     index = load_index()
 
-    logger.info("Fetching %d recent AC submissions for @%s…", args.limit, args.username)
-    submissions = client.get_recent_ac_submissions(args.username, args.limit)
-    logger.info("Found %d submissions", len(submissions))
+    if args.fetch_all:
+        logger.info("Full sync mode — paginating ALL submissions for @%s…", args.username)
+        already_indexed = {p["slug"] for p in index["problems"]}
+        submissions = client.get_all_ac_submissions(already_indexed)
+    else:
+        logger.info("Fetching %d recent AC submissions for @%s…", args.limit, args.username)
+        submissions = client.get_recent_ac_submissions(args.username, args.limit)
+
+    logger.info("Found %d new submissions to process", len(submissions))
 
     new_count = 0
 
