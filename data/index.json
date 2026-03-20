@@ -1,5 +1,326 @@
 {
-  "problems": [],
-  "last_updated": "",
-  "total_solved": 0
+  "problems": [
+    {
+      "id": "4",
+      "title": "Median of Two Sorted Arrays",
+      "slug": "median-of-two-sorted-arrays",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Divide and Conquer"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951115193"
+    },
+    {
+      "id": "42",
+      "title": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Dynamic Programming",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951116139"
+    },
+    {
+      "id": "49",
+      "title": "Group Anagrams",
+      "slug": "group-anagrams",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951115507"
+    },
+    {
+      "id": "85",
+      "title": "Maximal Rectangle",
+      "slug": "maximal-rectangle",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Stack",
+        "Matrix",
+        "Monotonic Stack"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951116362"
+    },
+    {
+      "id": "239",
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Queue",
+        "Sliding Window",
+        "Heap (Priority Queue)",
+        "Monotonic Queue"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951116902"
+    },
+    {
+      "id": "347",
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Bucket Sort",
+        "Counting",
+        "Quickselect"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951116721"
+    },
+    {
+      "id": "460",
+      "title": "LFU Cache",
+      "slug": "lfu-cache",
+      "difficulty": "Hard",
+      "tags": [
+        "Hash Table",
+        "Linked List",
+        "Design",
+        "Doubly-Linked List"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951119242"
+    },
+    {
+      "id": "1046",
+      "title": "Max Consecutive Ones III",
+      "slug": "max-consecutive-ones-iii",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "language": "python3",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951115917"
+    },
+    {
+      "id": "1371",
+      "title": "Minimum Remove to Make Valid Parentheses",
+      "slug": "minimum-remove-to-make-valid-parentheses",
+      "difficulty": "Medium",
+      "tags": [
+        "String",
+        "Stack"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951114369"
+    },
+    {
+      "id": "1398",
+      "title": "Number of Ways to Stay in the Same Place After Some Steps",
+      "slug": "number-of-ways-to-stay-in-the-same-place-after-some-steps",
+      "difficulty": "Hard",
+      "tags": [
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951121953"
+    },
+    {
+      "id": "1845",
+      "title": "Largest Submatrix With Rearrangements",
+      "slug": "largest-submatrix-with-rearrangements",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1950691249"
+    },
+    {
+      "id": "1990",
+      "title": "Get Biggest Three Rhombus Sums in a Grid",
+      "slug": "get-biggest-three-rhombus-sums-in-a-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Math",
+        "Sorting",
+        "Heap (Priority Queue)",
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-16",
+      "status": "solved",
+      "submission_id": "1949922437"
+    },
+    {
+      "id": "2125",
+      "title": "GCD Sort of an Array",
+      "slug": "gcd-sort-of-an-array",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Math",
+        "Union-Find",
+        "Sorting",
+        "Number Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951122729"
+    },
+    {
+      "id": "2174",
+      "title": "Next Greater Numerically Balanced Number",
+      "slug": "next-greater-numerically-balanced-number",
+      "difficulty": "Medium",
+      "tags": [
+        "Hash Table",
+        "Math",
+        "Backtracking",
+        "Counting",
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951121062"
+    },
+    {
+      "id": "2271",
+      "title": "Rearrange Array Elements by Sign",
+      "slug": "rearrange-array-elements-by-sign",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951118707"
+    },
+    {
+      "id": "2574",
+      "title": "Count Subarrays With Median K",
+      "slug": "count-subarrays-with-median-k",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951120169"
+    },
+    {
+      "id": "3105",
+      "title": "Minimum Edge Reversals So Every Node Is Reachable",
+      "slug": "minimum-edge-reversals-so-every-node-is-reachable",
+      "difficulty": "Hard",
+      "tags": [
+        "Dynamic Programming",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Graph Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-17",
+      "status": "solved",
+      "submission_id": "1951117689"
+    },
+    {
+      "id": "3338",
+      "title": "Count Submatrices with Top-Left Element and Sum Less Than k",
+      "slug": "count-submatrices-with-top-left-element-and-sum-less-than-k",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-18",
+      "status": "solved",
+      "submission_id": "1951808719"
+    },
+    {
+      "id": "3492",
+      "title": "Count Submatrices With Equal Frequency of X and Y",
+      "slug": "count-submatrices-with-equal-frequency-of-x-and-y",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-19",
+      "status": "solved",
+      "submission_id": "1953022629"
+    },
+    {
+      "id": "3884",
+      "title": "Minimum Absolute Difference in Sliding Submatrix",
+      "slug": "minimum-absolute-difference-in-sliding-submatrix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Sorting",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-20",
+      "status": "solved",
+      "submission_id": "1953689616"
+    }
+  ],
+  "last_updated": "2026-03-20T10:43:19.185641+00:00",
+  "total_solved": 20
 }
