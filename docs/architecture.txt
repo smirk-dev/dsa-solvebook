@@ -1,0 +1,18 @@
+📄 Document 4: System Architecture (The Architect)
+Pattern: Git-Flow Automation Pipeline
+
+1. Data Flow Diagram
+Code snippet
+graph LR
+    LC[LeetCode API/GQL] -->|Python Scraper| GHA[GitHub Actions]
+    GHA -->|Commit JSON/MD| REPO[(GitHub Repo)]
+    REPO -->|Webhook Trigger| VERCEL[Vercel/Netlify]
+    VERCEL -->|SSG Build| WEB[Live Solvebook Site]
+2. Tech Stack
+Pipeline: Python 3.11 + gql / requests.
+
+Automation: GitHub Actions (Cron trigger).
+
+Frontend: Next.js 14 (App Router) + Tailwind CSS.
+
+Content: Static JSON indexing + Markdown solutions.
