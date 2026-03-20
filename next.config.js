@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',          // SSG — no server needed
+  // No output:'export' needed — Vercel handles Next.js SSG natively.
+  // Pages with generateStaticParams are still statically built at deploy time.
   trailingSlash: true,
-  images: { unoptimized: true },
 };
 
 module.exports = nextConfig;
