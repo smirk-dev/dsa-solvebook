@@ -37,7 +37,7 @@ export function ProblemTable({ solved, planned }: ProblemTableProps) {
   const allTags = useMemo(() => {
     const set = new Set<string>();
     [...solved, ...planned].forEach((p) => p.tags.forEach((t) => set.add(t)));
-    return [...set].sort();
+    return Array.from(set).sort();
   }, [solved, planned]);
 
   const combined: AnyProblem[] = useMemo(() => {
