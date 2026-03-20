@@ -8,7 +8,7 @@ A self-sustaining pipeline that pulls accepted LeetCode submissions every 4 hour
 
 ## How It Works
 
-```
+```text
 LeetCode GraphQL API
     → Python Scraper (GitHub Actions, every 4 h)
         → Commits JSON index + Markdown files
