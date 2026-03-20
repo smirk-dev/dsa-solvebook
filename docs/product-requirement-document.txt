@@ -1,0 +1,18 @@
+📄 Document 2: Product Requirement Document (The PM)
+Status: Draft | Version: 1.0
+
+1. Functional Requirements (FR)
+FR-1: Automated Sync: The system MUST pull new accepted submissions from LeetCode every 3–6 hours.
+
+FR-2: Git-as-DB: Every solved problem MUST result in a unique markdown/code file in the repo.
+
+FR-3: Problem Categorization: The frontend MUST allow filtering by Difficulty (Easy/Med/Hard), Topic Tags, and Status.
+
+FR-4: Planned List: Users MUST be able to manually add "Target" problems to a planned.json that shows up on the frontend.
+
+FR-5: Performance: The frontend MUST be a Static Site (SSG) to ensure near-instant load times.
+
+2. Non-Functional Requirements (NFR)
+NFR-1: Resilience: A failure in the scraper script MUST NOT take down the website.
+
+NFR-2: Security: LeetCode credentials MUST be stored exclusively in GitHub Secrets
