@@ -1,0 +1,19 @@
+📄 Document 5: Story & Epic Backlog (The PO)
+Epic 1: The Data Engine
+Story 1.1: Setup GitHub Action to trigger on schedule.
+
+Story 1.2: Implement Python scraper for LeetCode GraphQL (fetching AC submissions).
+
+Story 1.3: Implement Git-commit logic to handle file updates and index generation.
+
+Epic 2: The Core Frontend
+Story 2.1: Scaffold Next.js project with Tailwind.
+
+Story 2.2: Build dynamic routing for /problems/[slug] based on local files.
+
+Story 2.3: Implement search and filtering logic on the main table.
+
+Epic 3: Polish & Portfolio
+Story 3.1: Add "Planned" vs "Solved" visual logic.
+
+Story 3.2: Deploy to Vercel and link custom domain (if applicable).
