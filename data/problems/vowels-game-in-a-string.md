@@ -1,0 +1,80 @@
+---
+id: "3462"
+title: "Vowels Game in a String"
+slug: "vowels-game-in-a-string"
+difficulty: "Medium"
+tags: ["Math", "String", "Brainteaser", "Game Theory"]
+language: "cpp"
+date_solved: "2025-09-12"
+status: "solved"
+submission_id: "1768231535"
+---
+
+## Problem
+
+Alice and Bob are playing a game on a string.
+
+You are given a string `s`, Alice and Bob will take turns playing the following game where Alice starts **first** :
+
+  * On Alice's turn, she has to remove any **non-empty** substring from `s` that contains an **odd** number of vowels.
+  * On Bob's turn, he has to remove any **non-empty** substring from `s` that contains an **even** number of vowels.
+
+
+
+The first player who cannot make a move on their turn loses the game. We assume that both Alice and Bob play **optimally**.
+
+Return `true` if Alice wins the game, and `false` otherwise.
+
+The English vowels are: `a`, `e`, `i`, `o`, and `u`.
+
+ 
+
+**Example 1:**
+
+**Input:** s = "leetcoder"
+
+**Output:** true
+
+**Explanation:**  
+Alice can win the game as follows:
+
+  * Alice plays first, she can delete the underlined substring in `s = "_**leetco**_ der"` which contains 3 vowels. The resulting string is `s = "der"`.
+  * Bob plays second, he can delete the underlined substring in `s = "_**d**_ er"` which contains 0 vowels. The resulting string is `s = "er"`.
+  * Alice plays third, she can delete the whole string `s = "**_er_** "` which contains 1 vowel.
+  * Bob plays fourth, since the string is empty, there is no valid play for Bob. So Alice wins the game.
+
+
+
+**Example 2:**
+
+**Input:** s = "bbcd"
+
+**Output:** false
+
+**Explanation:**  
+There is no valid play for Alice in her first turn, so Alice loses the game.
+
+ 
+
+**Constraints:**
+
+  * `1 <= s.length <= 105`
+  * `s` consists only of lowercase English letters.
+
+## Solution
+
+```cpp
+class Solution {
+public:
+    bool doesAliceWin(string s) {
+        for (int i = 0; i < s.size(); i++)
+            if ((0x104111 >> (s[i] - 97)) & 1)
+                return 1;                                
+        return 0;
+    }
+};
+```
+
+## Editorial
+
+_Add your notes here — why did you choose this approach? What's the time/space complexity?_

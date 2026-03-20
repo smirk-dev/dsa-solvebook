@@ -1,0 +1,78 @@
+---
+id: "66"
+title: "Plus One"
+slug: "plus-one"
+difficulty: "Easy"
+tags: ["Array", "Math"]
+language: "python3"
+date_solved: "2026-01-01"
+status: "solved"
+submission_id: "1870841367"
+---
+
+## Problem
+
+You are given a **large integer** represented as an integer array `digits`, where each `digits[i]` is the `ith` digit of the integer. The digits are ordered from most significant to least significant in left-to-right order. The large integer does not contain any leading `0`'s.
+
+Increment the large integer by one and return _the resulting array of digits_.
+
+ 
+
+**Example 1:**
+    
+    
+    **Input:** digits = [1,2,3]
+    **Output:** [1,2,4]
+    **Explanation:** The array represents the integer 123.
+    Incrementing by one gives 123 + 1 = 124.
+    Thus, the result should be [1,2,4].
+    
+
+**Example 2:**
+    
+    
+    **Input:** digits = [4,3,2,1]
+    **Output:** [4,3,2,2]
+    **Explanation:** The array represents the integer 4321.
+    Incrementing by one gives 4321 + 1 = 4322.
+    Thus, the result should be [4,3,2,2].
+    
+
+**Example 3:**
+    
+    
+    **Input:** digits = [9]
+    **Output:** [1,0]
+    **Explanation:** The array represents the integer 9.
+    Incrementing by one gives 9 + 1 = 10.
+    Thus, the result should be [1,0].
+    
+
+ 
+
+**Constraints:**
+
+  * `1 <= digits.length <= 100`
+  * `0 <= digits[i] <= 9`
+  * `digits` does not contain any leading `0`'s.
+
+## Solution
+
+```python
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        n = len(digits)
+        # Traverse from the end
+        for i in range(n - 1, -1, -1):
+            if digits[i] < 9:
+                digits[i] += 1
+                return digits
+            # If digit is 9, set it to 0 and continue carry
+            digits[i] = 0
+        # If all digits were 9, we need to add 1 at the beginning
+        return [1] + digits
+```
+
+## Editorial
+
+_Add your notes here — why did you choose this approach? What's the time/space complexity?_

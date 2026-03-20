@@ -1,0 +1,76 @@
+---
+id: "498"
+title: "Diagonal Traverse"
+slug: "diagonal-traverse"
+difficulty: "Medium"
+tags: ["Array", "Matrix", "Simulation"]
+language: "cpp"
+date_solved: "2025-08-25"
+status: "solved"
+submission_id: "1747980954"
+---
+
+## Problem
+
+Given an `m x n` matrix `mat`, return _an array of all the elements of the array in a diagonal order_.
+
+ 
+
+**Example 1:**
+    
+    
+    **Input:** mat = [[1,2,3],[4,5,6],[7,8,9]]
+    **Output:** [1,2,4,7,5,3,6,8,9]
+    
+
+**Example 2:**
+    
+    
+    **Input:** mat = [[1,2],[3,4]]
+    **Output:** [1,2,3,4]
+    
+
+ 
+
+**Constraints:**
+
+  * `m == mat.length`
+  * `n == mat[i].length`
+  * `1 <= m, n <= 104`
+  * `1 <= m * n <= 104`
+  * `-105 <= mat[i][j] <= 105`
+
+## Solution
+
+```cpp
+class Solution {
+public:
+    vector<int> findDiagonalOrder(vector<vector<int>>& matrix) {
+        if (matrix.empty() || matrix[0].empty()) return {};
+
+        int m = matrix.size(), n = matrix[0].size();
+        vector<int> result(m * n);
+        int row = 0, col = 0;
+
+        for (int i = 0; i < m * n; i++) {
+            result[i] = matrix[row][col];
+
+            if ((row + col) % 2 == 0) {
+                if (col == n - 1) row++;
+                else if (row == 0) col++;
+                else { row--; col++; }
+            } else {
+                if (row == m - 1) col++;
+                else if (col == 0) row++;
+                else { row++; col--; }
+            }
+        }
+
+        return result;
+    }
+};
+```
+
+## Editorial
+
+_Add your notes here — why did you choose this approach? What's the time/space complexity?_
