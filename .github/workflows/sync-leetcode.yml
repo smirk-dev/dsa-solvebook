@@ -1,35 +1,35 @@
 name: Sync LeetCode Submissions
 
 # ─────────────────────────────────────────────────────────────────────────────
-# REQUIRED SETUP — add these in your repo:
-#   Settings → Secrets and variables → Actions → New repository secret
+# REQUIRED SETUP (one-time, in your GitHub repo):
 #
-#   LEETCODE_SESSION  ← value of the LEETCODE_SESSION cookie (from browser DevTools)
-#   LEETCODE_CSRF     ← value of the csrftoken cookie (from browser DevTools)
+# Settings → Secrets and variables → Actions
 #
-# REQUIRED SETUP — add this in your repo:
-#   Settings → Secrets and variables → Actions → Variables tab → New variable
+#   SECRETS tab — add these two (encrypted):
+#     LEETCODE_SESSION  ← value of the LEETCODE_SESSION cookie
+#     LEETCODE_CSRF     ← value of the csrftoken cookie
 #
-#   LEETCODE_USERNAME ← your public LeetCode username (e.g. "suryansh123")
-#                       (this is not secret, but storing it here avoids hardcoding)
+#   VARIABLES tab — add this one (plain text, not encrypted):
+#     LEETCODE_USERNAME ← your LeetCode username  e.g. "suryansh123"
 #
-# How to find your cookies:
+#   NOTE: If you accidentally added LEETCODE_USERNAME as a Secret instead of
+#   a Variable, this workflow will still find it — both are checked.
+#
+# How to get your cookies:
 #   1. Log into leetcode.com
-#   2. Open DevTools → Application (Chrome) or Storage (Firefox)
+#   2. DevTools → Application (Chrome) / Storage (Firefox)
 #   3. Cookies → https://leetcode.com
 #   4. Copy the VALUE of LEETCODE_SESSION and csrftoken
 # ─────────────────────────────────────────────────────────────────────────────
 
 on:
-  # Run every 4 hours
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */4 * * *'          # every 4 hours
 
-  # Allow manual trigger with optional limit override
   workflow_dispatch:
     inputs:
       limit:
-        description: 'Number of recent AC submissions to fetch (default: 50)'
+        description: 'Max recent AC submissions to fetch'
         required: false
         default: '50'
 
@@ -38,16 +38,47 @@ jobs:
     name: Fetch & Commit New Solutions
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # required to push commits back to the repo
+      contents: write
 
     steps:
-      # ── 1. Checkout ──────────────────────────────────────────────────────────
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
 
-      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      # ── Pre-flight: validate all required config is present ───────────────
+      - name: Validate configuration
+        env:
+          LEETCODE_SESSION:  ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF:     ${{ secrets.LEETCODE_CSRF }}
+          # Accept username from Variable OR Secret (Variable takes precedence)
+          USERNAME_FROM_VAR: ${{ vars.LEETCODE_USERNAME }}
+          USERNAME_FROM_SEC: ${{ secrets.LEETCODE_USERNAME }}
+        run: |
+          MISSING=()
+          [ -z "$LEETCODE_SESSION" ]  && MISSING+=("LEETCODE_SESSION (Secret)")
+          [ -z "$LEETCODE_CSRF" ]     && MISSING+=("LEETCODE_CSRF (Secret)")
+
+          # Resolve username — try Variable first, fall back to Secret
+          RESOLVED_USERNAME="${USERNAME_FROM_VAR:-$USERNAME_FROM_SEC}"
+          [ -z "$RESOLVED_USERNAME" ] && MISSING+=("LEETCODE_USERNAME (Variable or Secret)")
+
+          if [ ${#MISSING[@]} -gt 0 ]; then
+            echo "::error::Missing required configuration:"
+            for item in "${MISSING[@]}"; do
+              echo "::error::  → $item"
+            done
+            echo ""
+            echo "Go to: Settings → Secrets and variables → Actions"
+            exit 1
+          fi
+
+          echo "✓ All credentials present"
+          echo "✓ Username resolved (length: ${#RESOLVED_USERNAME})"
+          # Persist the resolved username for the next step
+          echo "LEETCODE_USERNAME=$RESOLVED_USERNAME" >> $GITHUB_ENV
+
+      # ── Set up Python ─────────────────────────────────────────────────────
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
         with:
@@ -58,21 +89,30 @@ jobs:
       - name: Install scraper dependencies
         run: pip install -r scraper/requirements.txt
 
-      # ── 3. Run scraper ───────────────────────────────────────────────────────
+      # ── Run scraper ───────────────────────────────────────────────────────
       - name: Run LeetCode scraper
         env:
           LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
           LEETCODE_CSRF:    ${{ secrets.LEETCODE_CSRF }}
+          # LEETCODE_USERNAME is already set in $GITHUB_ENV from the validate step
         run: |
           python scraper/main.py \
-            --username "${{ vars.LEETCODE_USERNAME }}" \
+            --username "$LEETCODE_USERNAME" \
             --limit    "${{ github.event.inputs.limit || '50' }}"
 
-      # ── 4. Commit changes (if any) ───────────────────────────────────────────
-      - name: Check for changes
+      # ── Commit changes (tracked + untracked new files) ────────────────────
+      - name: Check for changes in data/
         id: changes
         run: |
-          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+          # git diff only sees tracked files; git status --porcelain also catches
+          # new untracked files (e.g. freshly created data/problems/*.md)
+          if [ -n "$(git status --porcelain data/)" ]; then
+            echo "changed=true"  >> $GITHUB_OUTPUT
+            echo "Summary of changes:"
+            git status --short data/
+          else
+            echo "changed=false" >> $GITHUB_OUTPUT
+          fi
 
       - name: Commit and push new solutions
         if: steps.changes.outputs.changed == 'true'
@@ -85,6 +125,6 @@ jobs:
           Automated sync via GitHub Actions at $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
           git push
 
-      - name: No new solutions
+      - name: No new solutions found
         if: steps.changes.outputs.changed == 'false'
-        run: echo "✓ Index is already up to date — nothing to commit."
+        run: echo "✓ No new submissions since last sync — nothing to commit."

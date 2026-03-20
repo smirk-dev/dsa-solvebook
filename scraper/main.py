@@ -54,10 +54,16 @@ def unix_to_date(ts: str) -> str:
 def main() -> None:
     args = parse_args()
 
-    # Validate credentials are present
+    # Validate credentials and username are present
     for key in ("LEETCODE_SESSION", "LEETCODE_CSRF"):
         if not os.environ.get(key):
             raise EnvironmentError(f"Missing required environment variable: {key}")
+
+    if not args.username or not args.username.strip():
+        raise ValueError(
+            "LeetCode username is empty. "
+            "Pass --username <name> or set LEETCODE_USERNAME as a GitHub Variable."
+        )
 
     client = LeetCodeClient()
     index = load_index()
