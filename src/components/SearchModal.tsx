@@ -2,7 +2,7 @@
 
 import { useEffect, useState, useCallback, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import { ProblemMeta, Difficulty } from '@/lib/types';
+import { ProblemMeta } from '@/lib/types';
 import { DifficultyBadge } from './DifficultyBadge';
 import { clsx } from 'clsx';
 
