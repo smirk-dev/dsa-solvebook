@@ -1,0 +1,70 @@
+name: Sync LeetCode Submissions
+
+on:
+  # Run every 4 hours
+  schedule:
+    - cron: '0 */4 * * *'
+
+  # Allow manual trigger from the Actions tab
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: 'Number of recent AC submissions to fetch'
+        required: false
+        default: '50'
+
+jobs:
+  sync:
+    name: Fetch & Commit New Solutions
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push commits back to the repo
+
+    steps:
+      # ── 1. Checkout ──────────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── 2. Set up Python ─────────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+          cache-dependency-path: scraper/requirements.txt
+
+      - name: Install scraper dependencies
+        run: pip install -r scraper/requirements.txt
+
+      # ── 3. Run scraper ───────────────────────────────────────────────────────
+      - name: Run LeetCode scraper
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF:    ${{ secrets.LEETCODE_CSRF }}
+        run: |
+          python scraper/main.py \
+            --username "${{ secrets.LEETCODE_USERNAME }}" \
+            --limit "${{ github.event.inputs.limit || '50' }}"
+
+      # ── 4. Commit changes (if any) ───────────────────────────────────────────
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push new solutions
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "chore(sync): add new LeetCode solutions [skip ci]
+
+          Automated sync via GitHub Actions at $(date -u '+%Y-%m-%dT%H:%M:%SZ')"
+          git push
+
+      - name: No new solutions
+        if: steps.changes.outputs.changed == 'false'
+        run: echo "✓ Index is already up to date — nothing to commit."
