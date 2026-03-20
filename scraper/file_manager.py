@@ -5,8 +5,6 @@ Manages writing problem markdown files and keeping index.json up to date.
 from __future__ import annotations
 
 import json
-import os
-import re
 import textwrap
 from datetime import datetime, timezone
 from pathlib import Path
@@ -56,17 +54,24 @@ def build_markdown(
     lang = _lang_display(submission.lang)
     tags_yaml = json.dumps(problem.tags)
 
+    # Extract values before f-string to avoid backslash-in-expression (Python < 3.12)
+    safe_title = problem.title.replace('"', '\\"')
+    prob_id = problem.id
+    prob_slug = problem.title_slug
+    prob_diff = problem.difficulty
+    sub_id = submission.id
+
     frontmatter = textwrap.dedent(f"""\
         ---
-        id: "{problem.id}"
-        title: "{problem.title.replace('"', '\\"')}"
-        slug: "{problem.title_slug}"
-        difficulty: "{problem.difficulty}"
+        id: "{prob_id}"
+        title: "{safe_title}"
+        slug: "{prob_slug}"
+        difficulty: "{prob_diff}"
         tags: {tags_yaml}
         language: "{lang}"
         date_solved: "{date_solved}"
         status: "solved"
-        submission_id: "{submission.id}"
+        submission_id: "{sub_id}"
         ---
     """)
 
