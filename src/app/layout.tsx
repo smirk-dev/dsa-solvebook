@@ -1,5 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
+// highlight.js base theme (light); dark-mode colours are overridden in globals.css
+import 'highlight.js/styles/github.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import { Navbar } from '@/components/Navbar';
 import { SearchModal } from '@/components/SearchModal';
