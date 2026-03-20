@@ -78,6 +78,7 @@ LeetCode GraphQL API
 **`data/planned.json`** — array of planned problems. Edit manually.
 
 **`data/problems/[slug].md`** — frontmatter (id, title, slug, difficulty, tags, language, date_solved, status, submission_id) followed by three `##` sections:
+
 - `## Problem` — description (rendered Markdown)
 - `## Solution` — fenced code block
 - `## Editorial` — personal notes
