@@ -42,7 +42,9 @@ logger = logging.getLogger(__name__)
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Sync LeetCode submissions to Git repo")
     p.add_argument("--username", required=True, help="LeetCode username")
-    p.add_argument("--limit", type=int, default=50, help="Number of recent AC submissions to fetch")
+    p.add_argument("--limit", type=int, default=50, help="Number of recent AC submissions to fetch (ignored when --all is set)")
+    p.add_argument("--all", dest="fetch_all", action="store_true",
+                   help="Paginate through ALL submissions instead of just the most recent 20")
     return p.parse_args()
 
 
