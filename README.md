@@ -31,11 +31,11 @@ npm install
 
 ### 2. Add GitHub Secrets
 
-| Secret | Description |
-|--------|-------------|
+| Secret             | Description                                              |
+| ------------------ | -------------------------------------------------------- |
 | `LEETCODE_SESSION` | Value of the `LEETCODE_SESSION` cookie from your browser |
-| `LEETCODE_CSRF` | Value of the `csrftoken` cookie |
-| `LEETCODE_USERNAME` | Your LeetCode username (public) |
+| `LEETCODE_CSRF`    | Value of the `csrftoken` cookie                          |
+| `LEETCODE_USERNAME`| Your LeetCode username (public)                          |
 
 > **How to get the cookies:** Log into leetcode.com, open DevTools → Application → Cookies → `leetcode.com`. Copy the two values above.
 
@@ -101,7 +101,7 @@ Edit `data/planned.json` directly. Format:
 
 ## Project Structure
 
-```
+```text
 .
 ├── .github/workflows/sync-leetcode.yml   # cron automation
 ├── scraper/                              # Python scraper
