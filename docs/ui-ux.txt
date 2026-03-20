@@ -1,0 +1,28 @@
+📄 Document 3: UI/UX Specification (The UX Designer)
+Design System: "The Terminal Aesthetic" (Clean, high-contrast, developer-centric).
+
+1. Sitemap & Layout
+Dashboard (Home): * Heatmap of activity (GitHub style).
+
+"Current Focus" cards (Top 3 tags currently being practiced).
+
+Stat counters (Total Solved, Streak, Difficulty breakdown).
+
+The Library (Problem List):
+
+A searchable table with columns: Title, Difficulty, Language, Date Solved.
+
+Filter chips for tags (e.g., "Dynamic Programming", "Sliding Window").
+
+Problem Detail View:
+
+The prompt (rendered Markdown).
+
+The Solution: A syntax-highlighted code block.
+
+The Editorial: A section for manual notes (why I solved it this way).
+
+2. Interactions
+Theme Toggle: System default with manual Dark/Light mode override.
+
+Quick Search: Cmd+K style interface for jumping to a specific problem slug.
