@@ -10222,6 +10222,21 @@
       "submission_id": "1737403168"
     },
     {
+      "id": "3973",
+      "title": "Flip Square Submatrix Vertically",
+      "slug": "flip-square-submatrix-vertically",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-21",
+      "status": "solved",
+      "submission_id": "1954450818"
+    },
+    {
       "id": "3980",
       "title": "Best Time to Buy and Sell Stock using Strategy",
       "slug": "best-time-to-buy-and-sell-stock-using-strategy",
@@ -10380,6 +10395,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-20T11:11:48.612258+00:00",
-  "total_solved": 709
+  "last_updated": "2026-03-21T05:09:07.544379+00:00",
+  "total_solved": 710
 }
