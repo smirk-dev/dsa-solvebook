@@ -7402,6 +7402,20 @@
       "submission_id": "1830310222"
     },
     {
+      "id": "2015",
+      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-22",
+      "status": "solved",
+      "submission_id": "1955670975"
+    },
+    {
       "id": "2016",
       "title": "Reduction Operations to Make the Array Elements Equal",
       "slug": "reduction-operations-to-make-the-array-elements-equal",
@@ -10395,6 +10409,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-21T05:09:07.544379+00:00",
-  "total_solved": 710
+  "last_updated": "2026-03-22T13:03:51.097079+00:00",
+  "total_solved": 711
 }
