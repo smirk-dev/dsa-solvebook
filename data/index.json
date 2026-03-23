@@ -6883,6 +6883,21 @@
       "submission_id": "1830353102"
     },
     {
+      "id": "1716",
+      "title": "Maximum Non Negative Product in a Matrix",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-23",
+      "status": "solved",
+      "submission_id": "1956907815"
+    },
+    {
       "id": "1724",
       "title": "Customer Who Visited but Did Not Make Any Transactions",
       "slug": "customer-who-visited-but-did-not-make-any-transactions",
@@ -10409,6 +10424,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-22T13:03:51.097079+00:00",
-  "total_solved": 711
+  "last_updated": "2026-03-23T17:00:01.826666+00:00",
+  "total_solved": 712
 }
