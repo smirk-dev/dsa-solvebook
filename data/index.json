@@ -8984,6 +8984,21 @@
       "submission_id": "1942564519"
     },
     {
+      "id": "3031",
+      "title": "Construct Product Matrix",
+      "slug": "construct-product-matrix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-24",
+      "status": "solved",
+      "submission_id": "1957420764"
+    },
+    {
       "id": "3062",
       "title": "Create a DataFrame from List",
       "slug": "create-a-dataframe-from-list",
@@ -10424,6 +10439,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-23T17:00:01.826666+00:00",
-  "total_solved": 712
+  "last_updated": "2026-03-24T08:59:24.795888+00:00",
+  "total_solved": 713
 }
