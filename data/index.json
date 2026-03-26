@@ -10024,6 +10024,23 @@
       "submission_id": "1958626550"
     },
     {
+      "id": "3850",
+      "title": "Equal Sum Grid Partition II",
+      "slug": "equal-sum-grid-partition-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Matrix",
+        "Enumeration",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-26",
+      "status": "solved",
+      "submission_id": "1959586174"
+    },
+    {
       "id": "3854",
       "title": "Maximum Profit from Trading Stocks with Discounts",
       "slug": "maximum-profit-from-trading-stocks-with-discounts",
@@ -10455,6 +10472,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-25T08:58:28.511592+00:00",
-  "total_solved": 714
+  "last_updated": "2026-03-26T09:04:30.471961+00:00",
+  "total_solved": 715
 }
