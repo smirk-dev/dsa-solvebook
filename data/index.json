@@ -9239,6 +9239,22 @@
       "submission_id": "1885599241"
     },
     {
+      "id": "3215",
+      "title": "Matrix Similarity After Cyclic Shifts",
+      "slug": "matrix-similarity-after-cyclic-shifts",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Math",
+        "Matrix",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-27",
+      "status": "solved",
+      "submission_id": "1960634334"
+    },
+    {
       "id": "3235",
       "title": "Minimum Cost to Convert String I",
       "slug": "minimum-cost-to-convert-string-i",
@@ -10472,6 +10488,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-26T09:04:30.471961+00:00",
-  "total_solved": 715
+  "last_updated": "2026-03-27T09:00:51.128831+00:00",
+  "total_solved": 716
 }
