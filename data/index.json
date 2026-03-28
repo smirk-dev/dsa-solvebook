@@ -8537,6 +8537,24 @@
       "submission_id": "1722082813"
     },
     {
+      "id": "2708",
+      "title": "Find the String with LCP",
+      "slug": "find-the-string-with-lcp",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "String",
+        "Dynamic Programming",
+        "Greedy",
+        "Union-Find",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-28",
+      "status": "solved",
+      "submission_id": "1961415477"
+    },
+    {
       "id": "2710",
       "title": "Minimum Operations to Reduce an Integer to 0",
       "slug": "minimum-operations-to-reduce-an-integer-to-0",
@@ -10488,6 +10506,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-27T09:00:51.128831+00:00",
-  "total_solved": 716
+  "last_updated": "2026-03-28T05:23:21.512995+00:00",
+  "total_solved": 717
 }
