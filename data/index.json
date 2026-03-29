@@ -9002,6 +9002,19 @@
       "submission_id": "1942564519"
     },
     {
+      "id": "2999",
+      "title": "Check if Strings Can be Made Equal With Operations I",
+      "slug": "check-if-strings-can-be-made-equal-with-operations-i",
+      "difficulty": "Easy",
+      "tags": [
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-29",
+      "status": "solved",
+      "submission_id": "1962652314"
+    },
+    {
       "id": "3031",
       "title": "Construct Product Matrix",
       "slug": "construct-product-matrix",
@@ -10506,6 +10519,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-28T05:23:21.512995+00:00",
-  "total_solved": 717
+  "last_updated": "2026-03-29T08:50:07.634363+00:00",
+  "total_solved": 718
 }
