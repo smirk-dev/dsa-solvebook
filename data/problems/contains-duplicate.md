@@ -1,0 +1,60 @@
+---
+id: "217"
+title: "Contains Duplicate"
+slug: "contains-duplicate"
+difficulty: "Easy"
+tags: ["Array", "Hash Table", "Sorting"]
+language: "java"
+date_solved: "2026-03-30"
+status: "solved"
+submission_id: "1963618883"
+---
+
+## Problem
+
+Given an integer array `nums`, return `true` if any value appears **at least twice** in the array, and return `false` if every element is distinct.
+
+ 
+
+**Example 1:**
+
+**Input:** nums = [1,2,3,1]
+
+**Output:** true
+
+**Explanation:**
+
+The element 1 occurs at the indices 0 and 3.
+
+**Example 2:**
+
+**Input:** nums = [1,2,3,4]
+
+**Output:** false
+
+**Explanation:**
+
+All elements are distinct.
+
+**Example 3:**
+
+**Input:** nums = [1,1,1,3,3,4,3,2,4,2]
+
+**Output:** true
+
+ 
+
+**Constraints:**
+
+  * `1 <= nums.length <= 105`
+  * `-109 <= nums[i] <= 109`
+
+## Solution
+
+```java
+
+```
+
+## Editorial
+
+_Add your notes here — why did you choose this approach? What's the time/space complexity?_

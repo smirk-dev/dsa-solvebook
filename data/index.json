@@ -2012,6 +2012,38 @@
       "submission_id": "1830335289"
     },
     {
+      "id": "144",
+      "title": "Binary Tree Preorder Traversal",
+      "slug": "binary-tree-preorder-traversal",
+      "difficulty": "Easy",
+      "tags": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963615585"
+    },
+    {
+      "id": "145",
+      "title": "Binary Tree Postorder Traversal",
+      "slug": "binary-tree-postorder-traversal",
+      "difficulty": "Easy",
+      "tags": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963617191"
+    },
+    {
       "id": "146",
       "title": "LRU Cache",
       "slug": "lru-cache",
@@ -2219,6 +2251,20 @@
       "submission_id": "1825364352"
     },
     {
+      "id": "168",
+      "title": "Excel Sheet Column Title",
+      "slug": "excel-sheet-column-title",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963616481"
+    },
+    {
       "id": "169",
       "title": "Majority Element",
       "slug": "majority-element",
@@ -2234,6 +2280,20 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825855422"
+    },
+    {
+      "id": "171",
+      "title": "Excel Sheet Column Number",
+      "slug": "excel-sheet-column-number",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963616947"
     },
     {
       "id": "172",
@@ -2345,6 +2405,19 @@
       "submission_id": "1829431727"
     },
     {
+      "id": "182",
+      "title": "Duplicate Emails",
+      "slug": "duplicate-emails",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963617539"
+    },
+    {
       "id": "183",
       "title": "Customers Who Never Order",
       "slug": "customers-who-never-order",
@@ -2439,6 +2512,32 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830314937"
+    },
+    {
+      "id": "193",
+      "title": "Valid Phone Numbers",
+      "slug": "valid-phone-numbers",
+      "difficulty": "Easy",
+      "tags": [
+        "Shell"
+      ],
+      "language": "bash",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963617857"
+    },
+    {
+      "id": "195",
+      "title": "Tenth Line",
+      "slug": "tenth-line",
+      "difficulty": "Easy",
+      "tags": [
+        "Shell"
+      ],
+      "language": "bash",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963618213"
     },
     {
       "id": "196",
@@ -2540,6 +2639,20 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825945779"
+    },
+    {
+      "id": "203",
+      "title": "Remove Linked List Elements",
+      "slug": "remove-linked-list-elements",
+      "difficulty": "Easy",
+      "tags": [
+        "Linked List",
+        "Recursion"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963618642"
     },
     {
       "id": "204",
@@ -2730,6 +2843,21 @@
       "submission_id": "1824016921"
     },
     {
+      "id": "217",
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963618883"
+    },
+    {
       "id": "219",
       "title": "Contains Duplicate II",
       "slug": "contains-duplicate-ii",
@@ -2804,6 +2932,21 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825840601"
+    },
+    {
+      "id": "225",
+      "title": "Implement Stack using Queues",
+      "slug": "implement-stack-using-queues",
+      "difficulty": "Easy",
+      "tags": [
+        "Stack",
+        "Design",
+        "Queue"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963619067"
     },
     {
       "id": "226",
@@ -3003,6 +3146,38 @@
       "date_solved": "2026-03-09",
       "status": "solved",
       "submission_id": "1942563541"
+    },
+    {
+      "id": "257",
+      "title": "Binary Tree Paths",
+      "slug": "binary-tree-paths",
+      "difficulty": "Easy",
+      "tags": [
+        "String",
+        "Backtracking",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963619369"
+    },
+    {
+      "id": "258",
+      "title": "Add Digits",
+      "slug": "add-digits",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "Simulation",
+        "Number Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963619603"
     },
     {
       "id": "262",
@@ -9002,6 +9177,21 @@
       "submission_id": "1942564519"
     },
     {
+      "id": "2978",
+      "title": "Check if Strings Can be Made Equal With Operations II",
+      "slug": "check-if-strings-can-be-made-equal-with-operations-ii",
+      "difficulty": "Medium",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963583003"
+    },
+    {
       "id": "2999",
       "title": "Check if Strings Can be Made Equal With Operations I",
       "slug": "check-if-strings-can-be-made-equal-with-operations-i",
@@ -10519,6 +10709,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-29T08:50:07.634363+00:00",
-  "total_solved": 718
+  "last_updated": "2026-03-30T09:20:40.767659+00:00",
+  "total_solved": 731
 }
