@@ -10033,6 +10033,21 @@
       "submission_id": "1883577689"
     },
     {
+      "id": "3770",
+      "title": "Lexicographically Smallest Generated String",
+      "slug": "lexicographically-smallest-generated-string",
+      "difficulty": "Hard",
+      "tags": [
+        "String",
+        "Greedy",
+        "String Matching"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-31",
+      "status": "solved",
+      "submission_id": "1964502772"
+    },
+    {
       "id": "3772",
       "title": "Minimum Pair Removal to Sort Array II",
       "slug": "minimum-pair-removal-to-sort-array-ii",
@@ -10709,6 +10724,6 @@
       "submission_id": "1917586384"
     }
   ],
-  "last_updated": "2026-03-30T09:20:40.767659+00:00",
-  "total_solved": 731
+  "last_updated": "2026-03-31T05:46:42.886026+00:00",
+  "total_solved": 732
 }
