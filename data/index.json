@@ -9825,6 +9825,19 @@
       "submission_id": "1946652406"
     },
     {
+      "id": "3530",
+      "title": "Odd and Even Transactions",
+      "slug": "odd-and-even-transactions",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965529507"
+    },
+    {
       "id": "3605",
       "title": "Construct the Minimum Bitwise Array I",
       "slug": "construct-the-minimum-bitwise-array-i",
@@ -10325,6 +10338,19 @@
       "submission_id": "1852846155"
     },
     {
+      "id": "3865",
+      "title": "Find Product Recommendation Pairs",
+      "slug": "find-product-recommendation-pairs",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965524084"
+    },
+    {
       "id": "3872",
       "title": "Find Most Frequent Vowel and Consonant",
       "slug": "find-most-frequent-vowel-and-consonant",
@@ -10416,6 +10442,19 @@
       "submission_id": "1899362046"
     },
     {
+      "id": "3891",
+      "title": "Find Category Recommendation Pairs",
+      "slug": "find-category-recommendation-pairs",
+      "difficulty": "Hard",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965528192"
+    },
+    {
       "id": "3892",
       "title": "Best Time to Buy and Sell Stock V",
       "slug": "best-time-to-buy-and-sell-stock-v",
@@ -10446,6 +10485,19 @@
       "submission_id": "1846059066"
     },
     {
+      "id": "3898",
+      "title": "Seasonal Sales Analysis",
+      "slug": "seasonal-sales-analysis",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965528433"
+    },
+    {
       "id": "3902",
       "title": "Maximize Spanning Tree Stability with Upgrades",
       "slug": "maximize-spanning-tree-stability-with-upgrades",
@@ -10463,6 +10515,45 @@
       "submission_id": "1945712594"
     },
     {
+      "id": "3910",
+      "title": "Find Books with No Available Copies",
+      "slug": "find-books-with-no-available-copies",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965528609"
+    },
+    {
+      "id": "3921",
+      "title": "Find Consistently Improving Employees",
+      "slug": "find-consistently-improving-employees",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965529999"
+    },
+    {
+      "id": "3932",
+      "title": "Find COVID Recovery Patients",
+      "slug": "find-covid-recovery-patients",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965530391"
+    },
+    {
       "id": "3934",
       "title": "Coupon Code Validator",
       "slug": "coupon-code-validator",
@@ -10477,6 +10568,32 @@
       "date_solved": "2025-12-13",
       "status": "solved",
       "submission_id": "1854309369"
+    },
+    {
+      "id": "3942",
+      "title": "Find Drivers with Improved Fuel Efficiency",
+      "slug": "find-drivers-with-improved-fuel-efficiency",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965530743"
+    },
+    {
+      "id": "3943",
+      "title": "Find Overbooked Employees",
+      "slug": "find-overbooked-employees",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965536952"
     },
     {
       "id": "3945",
@@ -10535,6 +10652,17 @@
       "submission_id": "1909988951"
     },
     {
+      "id": "3961",
+      "title": "Find Students with Study Spiral Pattern",
+      "slug": "find-students-with-study-spiral-pattern",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965537225"
+    },
+    {
       "id": "3963",
       "title": "Number of Perfect Pairs",
       "slug": "number-of-perfect-pairs",
@@ -10549,6 +10677,17 @@
       "date_solved": "2025-08-16",
       "status": "solved",
       "submission_id": "1737403168"
+    },
+    {
+      "id": "3971",
+      "title": "Find Stores with Inventory Imbalance",
+      "slug": "find-stores-with-inventory-imbalance",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965537490"
     },
     {
       "id": "3973",
@@ -10598,6 +10737,17 @@
       "submission_id": "1932621964"
     },
     {
+      "id": "3996",
+      "title": "Find Books with Polarized Opinions",
+      "slug": "find-books-with-polarized-opinions",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965537833"
+    },
+    {
       "id": "4010",
       "title": "Maximize Alternating Sum Using Swaps",
       "slug": "maximize-alternating-sum-using-swaps",
@@ -10630,6 +10780,17 @@
       "submission_id": "1784272243"
     },
     {
+      "id": "4025",
+      "title": "Find Loyal Customers",
+      "slug": "find-loyal-customers",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965538189"
+    },
+    {
       "id": "4041",
       "title": "Climbing Stairs II",
       "slug": "climbing-stairs-ii",
@@ -10642,6 +10803,17 @@
       "date_solved": "2025-09-27",
       "status": "solved",
       "submission_id": "1784265902"
+    },
+    {
+      "id": "4043",
+      "title": "Find Zombie Sessions",
+      "slug": "find-zombie-sessions",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965538545"
     },
     {
       "id": "4045",
@@ -10722,8 +10894,74 @@
       "date_solved": "2026-02-13",
       "status": "solved",
       "submission_id": "1917586384"
+    },
+    {
+      "id": "4091",
+      "title": "Find Golden Hour Customers",
+      "slug": "find-golden-hour-customers",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965538833"
+    },
+    {
+      "id": "4103",
+      "title": "Find Churn Risk Customers",
+      "slug": "find-churn-risk-customers",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965539052"
+    },
+    {
+      "id": "4169",
+      "title": "Most Common Course Pairs",
+      "slug": "most-common-course-pairs",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965539360"
+    },
+    {
+      "id": "4195",
+      "title": "Find Users with High Token Usage",
+      "slug": "find-users-with-high-token-usage",
+      "difficulty": "Easy",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965540015"
+    },
+    {
+      "id": "4208",
+      "title": "Find Emotionally Consistent Users",
+      "slug": "find-emotionally-consistent-users",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965540307"
+    },
+    {
+      "id": "4227",
+      "title": "Find Users with Persistent Behavior Patterns",
+      "slug": "find-users-with-persistent-behavior-patterns",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965540658"
     }
   ],
-  "last_updated": "2026-03-31T05:46:42.886026+00:00",
-  "total_solved": 732
+  "last_updated": "2026-04-01T05:59:05.602601+00:00",
+  "total_solved": 752
 }
