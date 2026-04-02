@@ -9939,6 +9939,21 @@
       "submission_id": "1585371448"
     },
     {
+      "id": "3677",
+      "title": "Maximum Amount of Money Robot Can Earn",
+      "slug": "maximum-amount-of-money-robot-can-earn",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-02",
+      "status": "solved",
+      "submission_id": "1966482325"
+    },
+    {
       "id": "3678",
       "title": "Design Task Manager",
       "slug": "design-task-manager",
@@ -10962,6 +10977,6 @@
       "submission_id": "1965540658"
     }
   ],
-  "last_updated": "2026-04-01T05:59:05.602601+00:00",
-  "total_solved": 752
+  "last_updated": "2026-04-02T05:43:49.050375+00:00",
+  "total_solved": 753
 }
