@@ -30,8 +30,20 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               try {
                 var t = localStorage.getItem('theme');
                 var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-                if (t === 'dark' || (!t && prefersDark)) {
-                  document.documentElement.classList.add('dark');
+                var themeClass = 'dark';
+                
+                if (t === 'light') {
+                  themeClass = '';
+                } else if (t === 'dim') {
+                  themeClass = 'dim';
+                } else if (t === 'black') {
+                  themeClass = 'black';
+                } else if (t === 'dark' || t === 'system') {
+                  themeClass = prefersDark ? 'dark' : '';
+                }
+                
+                if (themeClass) {
+                  document.documentElement.classList.add(themeClass);
                 }
               } catch(e) {}
             `,
