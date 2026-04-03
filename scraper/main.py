@@ -68,6 +68,16 @@ def main() -> None:
         )
 
     client = LeetCodeClient()
+
+    # Guardrail: ensure the authenticated cookies belong to the same user being scraped.
+    session_user = client.get_logged_in_username()
+    if session_user.lower() != args.username.strip().lower():
+        raise RuntimeError(
+            "LeetCode username mismatch: "
+            f"--username is '{args.username}', but session cookie belongs to '{session_user}'. "
+            "Use cookies from the same account as LEETCODE_USERNAME."
+        )
+
     index = load_index()
 
     if args.fetch_all:
@@ -103,8 +113,8 @@ def main() -> None:
             code = client.get_submission_code(sub.id)
             sub.code = code
         except Exception as exc:
-            logger.warning("Could not fetch code for submission %s: %s — using placeholder", sub.id, exc)
-            sub.code = "# Code could not be fetched automatically.\n# Please add your solution here."
+            logger.error("Could not fetch code for submission %s: %s — skipping this problem", sub.id, exc)
+            continue
 
         date_solved = unix_to_date(sub.timestamp)
 

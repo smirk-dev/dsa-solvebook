@@ -89,6 +89,25 @@ class LeetCodeClient:
 
     # ── Public API ────────────────────────────────────────────────────────────
 
+    def get_logged_in_username(self) -> str:
+        """Return the username tied to the current authenticated session cookie."""
+        query = """
+        query userStatus {
+            userStatus {
+                username
+                isSignedIn
+            }
+        }
+        """
+        data = self._gql(query)
+        status = data.get("userStatus") or {}
+        if not status.get("isSignedIn"):
+            raise RuntimeError("LeetCode session is not signed in. Refresh LEETCODE_SESSION/LEETCODE_CSRF.")
+        username = (status.get("username") or "").strip()
+        if not username:
+            raise RuntimeError("Could not determine signed-in LeetCode username from userStatus.")
+        return username
+
     def get_recent_ac_submissions(self, username: str, limit: int = 50) -> list[Submission]:
         """Fetch recent accepted submissions (public, hard-capped at 20 by LeetCode)."""
         query = """
@@ -197,7 +216,13 @@ class LeetCodeClient:
         """
         data = self._gql(query, {"submissionId": int(submission_id)})
         details = data.get("submissionDetails") or {}
-        return details.get("code", "")
+        code = (details.get("code") or "").strip()
+        if not code:
+            raise RuntimeError(
+                "LeetCode returned empty code for submissionDetails. "
+                "This usually means session cookies are expired or belong to a different account."
+            )
+        return code
 
     def get_problem_details(self, title_slug: str) -> ProblemDetails:
         """Fetch problem metadata + HTML content."""
