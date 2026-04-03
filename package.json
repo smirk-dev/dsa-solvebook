@@ -7,7 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "scrape:local": "cd scraper && python main.py --username $LEETCODE_USERNAME",
+    "scrape:local:limit": "cd scraper && python main.py --username $LEETCODE_USERNAME --limit 10",
+    "scrape:all": "cd scraper && python main.py --username $LEETCODE_USERNAME --all"
   },
   "dependencies": {
     "next": "14.2.5",
