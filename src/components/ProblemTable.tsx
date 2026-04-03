@@ -288,7 +288,7 @@ export function ProblemTable({ solved, planned }: ProblemTableProps) {
                   <td className="px-4 py-3 hidden md:table-cell">
                     <div className="flex flex-wrap gap-1">
                       {p.tags.slice(0, 3).map((tag) => (
-                        <TagBadge key={tag} tag={tag} onClick={() => setActiveTag(tag)} />
+                        <TagBadge key={tag} tag={tag} onClick={() => toggleTag(tag)} />
                       ))}
                       {p.tags.length > 3 && (
                         <span className="text-xs font-mono text-[var(--muted)]">
