@@ -9,6 +9,10 @@ import {
   ProblemDetail,
   SolveStats,
   HeatmapDay,
+  GoalsIndex,
+  GoalProgress,
+  LanguageBreakdown,
+  MonthlySolveData,
 } from './types';
 
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -24,6 +28,13 @@ export function getProblemIndex(): ProblemIndex {
 export function getPlannedIndex(): PlannedIndex {
   const raw = fs.readFileSync(path.join(DATA_DIR, 'planned.json'), 'utf-8');
   return JSON.parse(raw) as PlannedIndex;
+}
+
+export function getGoalsIndex(): GoalsIndex {
+  const path_ = path.join(DATA_DIR, 'goals.json');
+  if (!fs.existsSync(path_)) return { goals: [] };
+  const raw = fs.readFileSync(path_, 'utf-8');
+  return JSON.parse(raw) as GoalsIndex;
 }
 
 export function getAllSolvedProblems(): ProblemMeta[] {
@@ -129,6 +140,12 @@ export function getSolveStats(): SolveStats {
   // Streak calculation
   const { streak, longestStreak } = calcStreak(problems);
 
+  // Language breakdown
+  const languageBreakdown = buildLanguageBreakdown(problems);
+
+  // Monthly stats
+  const monthlyStats = buildMonthlySolveData(problems);
+
   return {
     total: problems.length,
     easy,
@@ -138,6 +155,8 @@ export function getSolveStats(): SolveStats {
     longestStreak,
     topTags,
     heatmap,
+    languageBreakdown,
+    monthlyStats,
   };
 }
 
@@ -207,4 +226,91 @@ function calcStreak(problems: ProblemMeta[]): {
   longestStreak = Math.max(longestStreak, current);
 
   return { streak, longestStreak };
+}
+
+function buildLanguageBreakdown(problems: ProblemMeta[]): LanguageBreakdown[] {
+  const langCount: Record<string, number> = {};
+  for (const p of problems) {
+    langCount[p.language] = (langCount[p.language] ?? 0) + 1;
+  }
+
+  const total = problems.length;
+  return Object.entries(langCount)
+    .map(([language, count]) => ({
+      language,
+      count,
+      percentage: Math.round((count / total) * 100),
+    }))
+    .sort((a, b) => b.count - a.count);
+}
+
+function buildMonthlySolveData(problems: ProblemMeta[]): MonthlySolveData[] {
+  const monthCount: Record<string, number> = {};
+  for (const p of problems) {
+    const month = p.date_solved.slice(0, 7); // "YYYY-MM"
+    monthCount[month] = (monthCount[month] ?? 0) + 1;
+  }
+
+  return Object.entries(monthCount)
+    .map(([month, count]) => ({ month, count }))
+    .sort((a, b) => a.month.localeCompare(b.month))
+    .slice(-12); // Last 12 months
+}
+
+// ─── Goals ────────────────────────────────────────────────────────────────────
+
+export function getGoalProgress(): GoalProgress[] {
+  const goals = getGoalsIndex().goals;
+  const problems = getAllSolvedProblems();
+  const today = new Date();
+
+  return goals.map((goal) => {
+    const { periodStart, periodEnd } = getPeriodRange(goal.period, today);
+    
+    // Filter problems matching the goal criteria and period
+    const matching = problems.filter((p) => {
+      const solveDate = new Date(p.date_solved);
+      const inPeriod = solveDate >= periodStart && solveDate <= periodEnd;
+      const matchesTags = !goal.tags || goal.tags.length === 0 || goal.tags.some((t) => p.tags.includes(t));
+      const matchesDiff = !goal.difficulty || p.difficulty === goal.difficulty;
+      return inPeriod && matchesTags && matchesDiff;
+    });
+
+    const current = matching.length;
+    const percentage = Math.min(100, Math.round((current / goal.target) * 100));
+
+    return {
+      goal,
+      current,
+      target: goal.target,
+      percentage,
+      completed: current >= goal.target,
+      period_start: periodStart.toISOString().slice(0, 10),
+      period_end: periodEnd.toISOString().slice(0, 10),
+    };
+  });
+}
+
+function getPeriodRange(
+  period: 'weekly' | 'monthly',
+  date: Date
+): { periodStart: Date; periodEnd: Date } {
+  if (period === 'weekly') {
+    const dayOfWeek = date.getDay(); // 0 = Sunday
+    const start = new Date(date);
+    start.setDate(date.getDate() - dayOfWeek);
+    start.setHours(0, 0, 0, 0);
+
+    const end = new Date(start);
+    end.setDate(start.getDate() + 6);
+    end.setHours(23, 59, 59, 999);
+
+    return { periodStart: start, periodEnd: end };
+  } else {
+    // monthly
+    const start = new Date(date.getFullYear(), date.getMonth(), 1);
+    const end = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+    end.setHours(23, 59, 59, 999);
+    return { periodStart: start, periodEnd: end };
+  }
 }
