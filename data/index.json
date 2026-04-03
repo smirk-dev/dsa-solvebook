@@ -2012,6 +2012,38 @@
       "submission_id": "1830335289"
     },
     {
+      "id": "144",
+      "title": "Binary Tree Preorder Traversal",
+      "slug": "binary-tree-preorder-traversal",
+      "difficulty": "Easy",
+      "tags": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963615585"
+    },
+    {
+      "id": "145",
+      "title": "Binary Tree Postorder Traversal",
+      "slug": "binary-tree-postorder-traversal",
+      "difficulty": "Easy",
+      "tags": [
+        "Stack",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963617191"
+    },
+    {
       "id": "146",
       "title": "LRU Cache",
       "slug": "lru-cache",
@@ -2219,6 +2251,20 @@
       "submission_id": "1825364352"
     },
     {
+      "id": "168",
+      "title": "Excel Sheet Column Title",
+      "slug": "excel-sheet-column-title",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963616481"
+    },
+    {
       "id": "169",
       "title": "Majority Element",
       "slug": "majority-element",
@@ -2234,6 +2280,20 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825855422"
+    },
+    {
+      "id": "171",
+      "title": "Excel Sheet Column Number",
+      "slug": "excel-sheet-column-number",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963616947"
     },
     {
       "id": "172",
@@ -2345,6 +2405,19 @@
       "submission_id": "1829431727"
     },
     {
+      "id": "182",
+      "title": "Duplicate Emails",
+      "slug": "duplicate-emails",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963617539"
+    },
+    {
       "id": "183",
       "title": "Customers Who Never Order",
       "slug": "customers-who-never-order",
@@ -2439,6 +2512,32 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830314937"
+    },
+    {
+      "id": "193",
+      "title": "Valid Phone Numbers",
+      "slug": "valid-phone-numbers",
+      "difficulty": "Easy",
+      "tags": [
+        "Shell"
+      ],
+      "language": "bash",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963617857"
+    },
+    {
+      "id": "195",
+      "title": "Tenth Line",
+      "slug": "tenth-line",
+      "difficulty": "Easy",
+      "tags": [
+        "Shell"
+      ],
+      "language": "bash",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963618213"
     },
     {
       "id": "196",
@@ -2540,6 +2639,20 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825945779"
+    },
+    {
+      "id": "203",
+      "title": "Remove Linked List Elements",
+      "slug": "remove-linked-list-elements",
+      "difficulty": "Easy",
+      "tags": [
+        "Linked List",
+        "Recursion"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963618642"
     },
     {
       "id": "204",
@@ -2730,6 +2843,21 @@
       "submission_id": "1824016921"
     },
     {
+      "id": "217",
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963618883"
+    },
+    {
       "id": "219",
       "title": "Contains Duplicate II",
       "slug": "contains-duplicate-ii",
@@ -2804,6 +2932,21 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825840601"
+    },
+    {
+      "id": "225",
+      "title": "Implement Stack using Queues",
+      "slug": "implement-stack-using-queues",
+      "difficulty": "Easy",
+      "tags": [
+        "Stack",
+        "Design",
+        "Queue"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963619067"
     },
     {
       "id": "226",
@@ -3003,6 +3146,38 @@
       "date_solved": "2026-03-09",
       "status": "solved",
       "submission_id": "1942563541"
+    },
+    {
+      "id": "257",
+      "title": "Binary Tree Paths",
+      "slug": "binary-tree-paths",
+      "difficulty": "Easy",
+      "tags": [
+        "String",
+        "Backtracking",
+        "Tree",
+        "Depth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963619369"
+    },
+    {
+      "id": "258",
+      "title": "Add Digits",
+      "slug": "add-digits",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "Simulation",
+        "Number Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963619603"
     },
     {
       "id": "262",
@@ -6883,6 +7058,21 @@
       "submission_id": "1830353102"
     },
     {
+      "id": "1716",
+      "title": "Maximum Non Negative Product in a Matrix",
+      "slug": "maximum-non-negative-product-in-a-matrix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-23",
+      "status": "solved",
+      "submission_id": "1956907815"
+    },
+    {
       "id": "1724",
       "title": "Customer Who Visited but Did Not Make Any Transactions",
       "slug": "customer-who-visited-but-did-not-make-any-transactions",
@@ -7400,6 +7590,20 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830310222"
+    },
+    {
+      "id": "2015",
+      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-22",
+      "status": "solved",
+      "submission_id": "1955670975"
     },
     {
       "id": "2016",
@@ -8508,6 +8712,24 @@
       "submission_id": "1722082813"
     },
     {
+      "id": "2708",
+      "title": "Find the String with LCP",
+      "slug": "find-the-string-with-lcp",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "String",
+        "Dynamic Programming",
+        "Greedy",
+        "Union-Find",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-28",
+      "status": "solved",
+      "submission_id": "1961415477"
+    },
+    {
       "id": "2710",
       "title": "Minimum Operations to Reduce an Integer to 0",
       "slug": "minimum-operations-to-reduce-an-integer-to-0",
@@ -8955,6 +9177,49 @@
       "submission_id": "1942564519"
     },
     {
+      "id": "2978",
+      "title": "Check if Strings Can be Made Equal With Operations II",
+      "slug": "check-if-strings-can-be-made-equal-with-operations-ii",
+      "difficulty": "Medium",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-30",
+      "status": "solved",
+      "submission_id": "1963583003"
+    },
+    {
+      "id": "2999",
+      "title": "Check if Strings Can be Made Equal With Operations I",
+      "slug": "check-if-strings-can-be-made-equal-with-operations-i",
+      "difficulty": "Easy",
+      "tags": [
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-29",
+      "status": "solved",
+      "submission_id": "1962652314"
+    },
+    {
+      "id": "3031",
+      "title": "Construct Product Matrix",
+      "slug": "construct-product-matrix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-24",
+      "status": "solved",
+      "submission_id": "1957420764"
+    },
+    {
       "id": "3062",
       "title": "Create a DataFrame from List",
       "slug": "create-a-dataframe-from-list",
@@ -9193,6 +9458,22 @@
       "date_solved": "2026-01-15",
       "status": "solved",
       "submission_id": "1885599241"
+    },
+    {
+      "id": "3215",
+      "title": "Matrix Similarity After Cyclic Shifts",
+      "slug": "matrix-similarity-after-cyclic-shifts",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Math",
+        "Matrix",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-27",
+      "status": "solved",
+      "submission_id": "1960634334"
     },
     {
       "id": "3235",
@@ -9544,6 +9825,19 @@
       "submission_id": "1946652406"
     },
     {
+      "id": "3530",
+      "title": "Odd and Even Transactions",
+      "slug": "odd-and-even-transactions",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965529507"
+    },
+    {
       "id": "3605",
       "title": "Construct the Minimum Bitwise Array I",
       "slug": "construct-the-minimum-bitwise-array-i",
@@ -9643,6 +9937,21 @@
       "date_solved": "2025-03-25",
       "status": "solved",
       "submission_id": "1585371448"
+    },
+    {
+      "id": "3677",
+      "title": "Maximum Amount of Money Robot Can Earn",
+      "slug": "maximum-amount-of-money-robot-can-earn",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-02",
+      "status": "solved",
+      "submission_id": "1966482325"
     },
     {
       "id": "3678",
@@ -9750,6 +10059,21 @@
       "date_solved": "2026-01-13",
       "status": "solved",
       "submission_id": "1883577689"
+    },
+    {
+      "id": "3770",
+      "title": "Lexicographically Smallest Generated String",
+      "slug": "lexicographically-smallest-generated-string",
+      "difficulty": "Hard",
+      "tags": [
+        "String",
+        "Greedy",
+        "String Matching"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-31",
+      "status": "solved",
+      "submission_id": "1964502772"
     },
     {
       "id": "3772",
@@ -9964,6 +10288,39 @@
       "submission_id": "1848274683"
     },
     {
+      "id": "3849",
+      "title": "Equal Sum Grid Partition I",
+      "slug": "equal-sum-grid-partition-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Enumeration",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-25",
+      "status": "solved",
+      "submission_id": "1958626550"
+    },
+    {
+      "id": "3850",
+      "title": "Equal Sum Grid Partition II",
+      "slug": "equal-sum-grid-partition-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Matrix",
+        "Enumeration",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-26",
+      "status": "solved",
+      "submission_id": "1959586174"
+    },
+    {
       "id": "3854",
       "title": "Maximum Profit from Trading Stocks with Discounts",
       "slug": "maximum-profit-from-trading-stocks-with-discounts",
@@ -9994,6 +10351,19 @@
       "date_solved": "2025-12-11",
       "status": "solved",
       "submission_id": "1852846155"
+    },
+    {
+      "id": "3865",
+      "title": "Find Product Recommendation Pairs",
+      "slug": "find-product-recommendation-pairs",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965524084"
     },
     {
       "id": "3872",
@@ -10087,6 +10457,19 @@
       "submission_id": "1899362046"
     },
     {
+      "id": "3891",
+      "title": "Find Category Recommendation Pairs",
+      "slug": "find-category-recommendation-pairs",
+      "difficulty": "Hard",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965528192"
+    },
+    {
       "id": "3892",
       "title": "Best Time to Buy and Sell Stock V",
       "slug": "best-time-to-buy-and-sell-stock-v",
@@ -10117,6 +10500,19 @@
       "submission_id": "1846059066"
     },
     {
+      "id": "3898",
+      "title": "Seasonal Sales Analysis",
+      "slug": "seasonal-sales-analysis",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965528433"
+    },
+    {
       "id": "3902",
       "title": "Maximize Spanning Tree Stability with Upgrades",
       "slug": "maximize-spanning-tree-stability-with-upgrades",
@@ -10134,6 +10530,45 @@
       "submission_id": "1945712594"
     },
     {
+      "id": "3910",
+      "title": "Find Books with No Available Copies",
+      "slug": "find-books-with-no-available-copies",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965528609"
+    },
+    {
+      "id": "3921",
+      "title": "Find Consistently Improving Employees",
+      "slug": "find-consistently-improving-employees",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965529999"
+    },
+    {
+      "id": "3932",
+      "title": "Find COVID Recovery Patients",
+      "slug": "find-covid-recovery-patients",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965530391"
+    },
+    {
       "id": "3934",
       "title": "Coupon Code Validator",
       "slug": "coupon-code-validator",
@@ -10148,6 +10583,32 @@
       "date_solved": "2025-12-13",
       "status": "solved",
       "submission_id": "1854309369"
+    },
+    {
+      "id": "3942",
+      "title": "Find Drivers with Improved Fuel Efficiency",
+      "slug": "find-drivers-with-improved-fuel-efficiency",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965530743"
+    },
+    {
+      "id": "3943",
+      "title": "Find Overbooked Employees",
+      "slug": "find-overbooked-employees",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965536952"
     },
     {
       "id": "3945",
@@ -10206,6 +10667,17 @@
       "submission_id": "1909988951"
     },
     {
+      "id": "3961",
+      "title": "Find Students with Study Spiral Pattern",
+      "slug": "find-students-with-study-spiral-pattern",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965537225"
+    },
+    {
       "id": "3963",
       "title": "Number of Perfect Pairs",
       "slug": "number-of-perfect-pairs",
@@ -10220,6 +10692,32 @@
       "date_solved": "2025-08-16",
       "status": "solved",
       "submission_id": "1737403168"
+    },
+    {
+      "id": "3971",
+      "title": "Find Stores with Inventory Imbalance",
+      "slug": "find-stores-with-inventory-imbalance",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965537490"
+    },
+    {
+      "id": "3973",
+      "title": "Flip Square Submatrix Vertically",
+      "slug": "flip-square-submatrix-vertically",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-03-21",
+      "status": "solved",
+      "submission_id": "1954450818"
     },
     {
       "id": "3980",
@@ -10254,6 +10752,17 @@
       "submission_id": "1932621964"
     },
     {
+      "id": "3996",
+      "title": "Find Books with Polarized Opinions",
+      "slug": "find-books-with-polarized-opinions",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965537833"
+    },
+    {
       "id": "4010",
       "title": "Maximize Alternating Sum Using Swaps",
       "slug": "maximize-alternating-sum-using-swaps",
@@ -10286,6 +10795,17 @@
       "submission_id": "1784272243"
     },
     {
+      "id": "4025",
+      "title": "Find Loyal Customers",
+      "slug": "find-loyal-customers",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965538189"
+    },
+    {
       "id": "4041",
       "title": "Climbing Stairs II",
       "slug": "climbing-stairs-ii",
@@ -10298,6 +10818,17 @@
       "date_solved": "2025-09-27",
       "status": "solved",
       "submission_id": "1784265902"
+    },
+    {
+      "id": "4043",
+      "title": "Find Zombie Sessions",
+      "slug": "find-zombie-sessions",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965538545"
     },
     {
       "id": "4045",
@@ -10378,8 +10909,74 @@
       "date_solved": "2026-02-13",
       "status": "solved",
       "submission_id": "1917586384"
+    },
+    {
+      "id": "4091",
+      "title": "Find Golden Hour Customers",
+      "slug": "find-golden-hour-customers",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965538833"
+    },
+    {
+      "id": "4103",
+      "title": "Find Churn Risk Customers",
+      "slug": "find-churn-risk-customers",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965539052"
+    },
+    {
+      "id": "4169",
+      "title": "Most Common Course Pairs",
+      "slug": "most-common-course-pairs",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965539360"
+    },
+    {
+      "id": "4195",
+      "title": "Find Users with High Token Usage",
+      "slug": "find-users-with-high-token-usage",
+      "difficulty": "Easy",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965540015"
+    },
+    {
+      "id": "4208",
+      "title": "Find Emotionally Consistent Users",
+      "slug": "find-emotionally-consistent-users",
+      "difficulty": "Medium",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965540307"
+    },
+    {
+      "id": "4227",
+      "title": "Find Users with Persistent Behavior Patterns",
+      "slug": "find-users-with-persistent-behavior-patterns",
+      "difficulty": "Hard",
+      "tags": [],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965540658"
     }
   ],
-  "last_updated": "2026-03-20T11:11:48.612258+00:00",
-  "total_solved": 709
+  "last_updated": "2026-04-02T05:43:49.050375+00:00",
+  "total_solved": 753
 }

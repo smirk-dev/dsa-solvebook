@@ -1,0 +1,69 @@
+---
+id: "171"
+title: "Excel Sheet Column Number"
+slug: "excel-sheet-column-number"
+difficulty: "Easy"
+tags: ["Math", "String"]
+language: "java"
+date_solved: "2026-03-30"
+status: "solved"
+submission_id: "1963616947"
+---
+
+## Problem
+
+Given a string `columnTitle` that represents the column title as appears in an Excel sheet, return _its corresponding column number_.
+
+For example:
+    
+    
+    A -> 1
+    B -> 2
+    C -> 3
+    ...
+    Z -> 26
+    AA -> 27
+    AB -> 28 
+    ...
+    
+
+ 
+
+**Example 1:**
+    
+    
+    **Input:** columnTitle = "A"
+    **Output:** 1
+    
+
+**Example 2:**
+    
+    
+    **Input:** columnTitle = "AB"
+    **Output:** 28
+    
+
+**Example 3:**
+    
+    
+    **Input:** columnTitle = "ZY"
+    **Output:** 701
+    
+
+ 
+
+**Constraints:**
+
+  * `1 <= columnTitle.length <= 7`
+  * `columnTitle` consists only of uppercase English letters.
+  * `columnTitle` is in the range `["A", "FXSHRXW"]`.
+
+## Solution
+
+```java
+
+```
+
+## Editorial
+
+_Add your notes here — why did you choose this approach? What's the time/space complexity?_
