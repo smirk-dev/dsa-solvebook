@@ -1,12 +1,15 @@
-import { getSolveStats, getProblemIndex } from '@/lib/problems';
+import { getSolveStats, getProblemIndex, getGoalProgress } from '@/lib/problems';
 import { StatCards } from '@/components/StatCards';
 import { FocusCards } from '@/components/FocusCards';
 import { HeatMap } from '@/components/HeatMap';
+import { Analytics } from '@/components/Analytics';
+import { GoalProgressWidget } from '@/components/GoalProgressWidget';
 import Link from 'next/link';
 
 export default function DashboardPage() {
   const stats = getSolveStats();
   const index = getProblemIndex();
+  const goalProgress = getGoalProgress();
 
   const recentProblems = [...index.problems]
     .sort((a, b) => b.date_solved.localeCompare(a.date_solved))
@@ -49,6 +52,24 @@ export default function DashboardPage() {
 
       {/* Focus cards */}
       <FocusCards stats={stats} />
+
+      {/* Goals */}
+      {goalProgress.length > 0 && (
+        <section>
+          <h2 className="text-xs font-mono text-[var(--muted)] uppercase tracking-widest mb-3">
+            Progress Goals
+          </h2>
+          <GoalProgressWidget goalProgress={goalProgress} />
+        </section>
+      )}
+
+      {/* Analytics */}
+      <section>
+        <h2 className="text-xs font-mono text-[var(--muted)] uppercase tracking-widest mb-3">
+          Analytics
+        </h2>
+        <Analytics stats={stats} />
+      </section>
 
       {/* Recent solves */}
       <section>
