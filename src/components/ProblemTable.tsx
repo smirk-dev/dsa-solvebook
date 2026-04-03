@@ -26,12 +26,14 @@ export function ProblemTable({ solved, planned }: ProblemTableProps) {
   const searchParams = useSearchParams();
   const [query, setQuery] = useState('');
   // Read ?tag= from URL on first render (e.g. from FocusCards links)
-  const [activeTag, setActiveTag] = useState<string>(searchParams.get('tag') ?? '');
+  const initialTag = searchParams.get('tag') ?? '';
+  const [selectedTags, setSelectedTags] = useState<string[]>(initialTag ? [initialTag] : []);
   const [activeDiff, setActiveDiff] = useState<Difficulty | ''>('');
   const [showPlanned, setShowPlanned] = useState(true);
   const [showSolved, setShowSolved] = useState(true);
   const [sortKey, setSortKey] = useState<SortKey>('id');
   const [sortDir, setSortDir] = useState<SortDir>('asc');
+  const [tagFilterMode, setTagFilterMode] = useState<'or' | 'and'>('or'); // 'or' = any tag, 'and' = all tags
 
   // All unique tags
   const allTags = useMemo(() => {
@@ -56,11 +58,21 @@ export function ProblemTable({ solved, planned }: ProblemTableProps) {
         p.slug.includes(q) ||
         p.tags.some((t) => t.toLowerCase().includes(q)) ||
         p.id.includes(q);
-      const matchesTag = !activeTag || p.tags.includes(activeTag);
+      
+      // Multi-tag filtering: 'or' = any match, 'and' = all must match
+      let matchesTags = true;
+      if (selectedTags.length > 0) {
+        if (tagFilterMode === 'or') {
+          matchesTags = selectedTags.some((t) => p.tags.includes(t));
+        } else {
+          matchesTags = selectedTags.every((t) => p.tags.includes(t));
+        }
+      }
+      
       const matchesDiff = !activeDiff || p.difficulty === activeDiff;
-      return matchesQuery && matchesTag && matchesDiff;
+      return matchesQuery && matchesTags && matchesDiff;
     });
-  }, [combined, query, activeTag, activeDiff]);
+  }, [combined, query, selectedTags, tagFilterMode, activeDiff]);
 
   const sorted = useMemo(() => {
     return [...filtered].sort((a, b) => {
@@ -77,6 +89,14 @@ export function ProblemTable({ solved, planned }: ProblemTableProps) {
       return sortDir === 'asc' ? cmp : -cmp;
     });
   }, [filtered, sortKey, sortDir]);
+
+  const toggleTag = (tag: string) => {
+    setSelectedTags((prev) =>
+      prev.includes(tag)
+        ? prev.filter((t) => t !== tag)
+        : [...prev, tag]
+    );
+  };
 
   const toggleSort = (key: SortKey) => {
     if (sortKey === key) setSortDir((d) => (d === 'asc' ? 'desc' : 'asc'));
@@ -162,23 +182,37 @@ export function ProblemTable({ solved, planned }: ProblemTableProps) {
         </div>
 
         {/* Tag chips */}
-        <div className="flex flex-wrap gap-1.5">
-          {activeTag && (
-            <TagBadge
-              tag={`✕ ${activeTag}`}
-              active
-              onClick={() => setActiveTag('')}
-            />
+        <div className="space-y-2">
+          {selectedTags.length > 0 && (
+            <div className="flex items-center gap-2">
+              <button
+                onClick={() => setTagFilterMode(tagFilterMode === 'or' ? 'and' : 'or')}
+                className="text-xs font-mono px-2 py-1 rounded-md border border-[var(--border)] text-[var(--muted)] hover:text-[var(--text)]"
+                title="Toggle between OR (any) and AND (all) tag matching"
+              >
+                {tagFilterMode.toUpperCase()}
+              </button>
+            </div>
           )}
-          {allTags
-            .filter((t) => t !== activeTag)
-            .map((tag) => (
+          <div className="flex flex-wrap gap-1.5">
+            {selectedTags.map((tag) => (
               <TagBadge
                 key={tag}
-                tag={tag}
-                onClick={() => setActiveTag(tag)}
+                tag={`✕ ${tag}`}
+                active
+                onClick={() => toggleTag(tag)}
               />
             ))}
+            {allTags
+              .filter((t) => !selectedTags.includes(t))
+              .map((tag) => (
+                <TagBadge
+                  key={tag}
+                  tag={tag}
+                  onClick={() => toggleTag(tag)}
+                />
+              ))}
+          </div>
         </div>
       </div>
 
