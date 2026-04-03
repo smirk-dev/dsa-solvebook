@@ -1,0 +1,25 @@
+{
+  "goals": [
+    {
+      "id": "weekly-5",
+      "period": "weekly",
+      "target": 5,
+      "tags": null,
+      "difficulty": null
+    },
+    {
+      "id": "monthly-20",
+      "period": "monthly",
+      "target": 20,
+      "tags": null,
+      "difficulty": null
+    },
+    {
+      "id": "weekly-dp",
+      "period": "weekly",
+      "target": 2,
+      "tags": ["Dynamic Programming"],
+      "difficulty": null
+    }
+  ]
+}
