@@ -7972,6 +7972,20 @@
       "submission_id": "1829407345"
     },
     {
+      "id": "2197",
+      "title": "Decode the Slanted Ciphertext",
+      "slug": "decode-the-slanted-ciphertext",
+      "difficulty": "Medium",
+      "tags": [
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-04",
+      "status": "solved",
+      "submission_id": "1968506104"
+    },
+    {
       "id": "2198",
       "title": "Process Restricted Friend Requests",
       "slug": "process-restricted-friend-requests",
@@ -10993,6 +11007,6 @@
       "submission_id": "1965540658"
     }
   ],
-  "last_updated": "2026-04-03T05:43:58.900663+00:00",
-  "total_solved": 754
+  "last_updated": "2026-04-04T11:35:15.072715+00:00",
+  "total_solved": 755
 }
