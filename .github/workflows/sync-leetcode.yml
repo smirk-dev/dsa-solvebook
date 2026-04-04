@@ -108,17 +108,10 @@ jobs:
           LEETCODE_CSRF:    ${{ secrets.LEETCODE_CSRF }}
           # LEETCODE_USERNAME is set in $GITHUB_ENV by the validate step above
         run: |
-          if [ "${{ github.event.inputs.full_sync }}" = "true" ]; then
-            echo "Mode: FULL SYNC (paginating all submissions)"
-            python scraper/main.py \
-              --username "$LEETCODE_USERNAME" \
-              --all
-          else
-            echo "Mode: RECENT (last ${{ github.event.inputs.limit || '50' }} submissions)"
-            python scraper/main.py \
-              --username "$LEETCODE_USERNAME" \
-              --limit    "${{ github.event.inputs.limit || '50' }}"
-          fi
+          echo "Mode: INCREMENTAL SYNC (paginating all submissions with smart early-stop)"
+          python scraper/main.py \
+            --username "$LEETCODE_USERNAME" \
+            --all
 
       # ── Commit changes (tracked + untracked new files) ────────────────────
       - name: Check for changes in data/
