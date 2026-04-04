@@ -3206,6 +3206,24 @@
       "submission_id": "1830305967"
     },
     {
+      "id": "268",
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Binary Search",
+        "Bit Manipulation",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965503452"
+    },
+    {
       "id": "274",
       "title": "H-Index",
       "slug": "h-index",
@@ -3219,6 +3237,20 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1825851196"
+    },
+    {
+      "id": "278",
+      "title": "First Bad Version",
+      "slug": "first-bad-version",
+      "difficulty": "Easy",
+      "tags": [
+        "Binary Search",
+        "Interactive"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965503929"
     },
     {
       "id": "279",
@@ -3342,6 +3374,21 @@
       "submission_id": "1825185633"
     },
     {
+      "id": "303",
+      "title": "Range Sum Query - Immutable",
+      "slug": "range-sum-query-immutable",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Design",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965504376"
+    },
+    {
       "id": "307",
       "title": "Range Sum Query - Mutable",
       "slug": "range-sum-query-mutable",
@@ -3460,6 +3507,20 @@
       "submission_id": "1735738690"
     },
     {
+      "id": "344",
+      "title": "Reverse String",
+      "slug": "reverse-string",
+      "difficulty": "Easy",
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965504725"
+    },
+    {
       "id": "345",
       "title": "Reverse Vowels of a String",
       "slug": "reverse-vowels-of-a-string",
@@ -3494,6 +3555,40 @@
       "submission_id": "1951116721"
     },
     {
+      "id": "349",
+      "title": "Intersection of Two Arrays",
+      "slug": "intersection-of-two-arrays",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965505311"
+    },
+    {
+      "id": "350",
+      "title": "Intersection of Two Arrays II",
+      "slug": "intersection-of-two-arrays-ii",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965505845"
+    },
+    {
       "id": "352",
       "title": "Data Stream as Disjoint Intervals",
       "slug": "data-stream-as-disjoint-intervals",
@@ -3526,6 +3621,20 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830292890"
+    },
+    {
+      "id": "367",
+      "title": "Valid Perfect Square",
+      "slug": "valid-perfect-square",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "Binary Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965506151"
     },
     {
       "id": "371",
@@ -3619,6 +3728,38 @@
       "submission_id": "1825946539"
     },
     {
+      "id": "387",
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "difficulty": "Easy",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Queue",
+        "Counting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965506929"
+    },
+    {
+      "id": "389",
+      "title": "Find the Difference",
+      "slug": "find-the-difference",
+      "difficulty": "Easy",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Bit Manipulation",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965507389"
+    },
+    {
       "id": "392",
       "title": "Is Subsequence",
       "slug": "is-subsequence",
@@ -3680,6 +3821,37 @@
       "date_solved": "2026-02-17",
       "status": "solved",
       "submission_id": "1922278961"
+    },
+    {
+      "id": "404",
+      "title": "Sum of Left Leaves",
+      "slug": "sum-of-left-leaves",
+      "difficulty": "Easy",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965507802"
+    },
+    {
+      "id": "405",
+      "title": "Convert a Number to Hexadecimal",
+      "slug": "convert-a-number-to-hexadecimal",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String",
+        "Bit Manipulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965508151"
     },
     {
       "id": "416",
@@ -4371,6 +4543,19 @@
       "date_solved": "2025-11-04",
       "status": "solved",
       "submission_id": "1820278267"
+    },
+    {
+      "id": "627",
+      "title": "Swap Sex of Employees",
+      "slug": "swap-sex-of-employees",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965518662"
     },
     {
       "id": "633",
@@ -5786,6 +5971,19 @@
       "submission_id": "1820280776"
     },
     {
+      "id": "1174",
+      "title": "Sales Analysis III",
+      "slug": "sales-analysis-iii",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965519131"
+    },
+    {
       "id": "1179",
       "title": "Game Play Analysis I",
       "slug": "game-play-analysis-i",
@@ -5895,6 +6093,19 @@
       "submission_id": "1771620497"
     },
     {
+      "id": "1268",
+      "title": "Market Analysis I",
+      "slug": "market-analysis-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965519556"
+    },
+    {
       "id": "1278",
       "title": "Product Price at a Given Date",
       "slug": "product-price-at-a-given-date",
@@ -5995,6 +6206,19 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830358372"
+    },
+    {
+      "id": "1301",
+      "title": "Reformat Department Table",
+      "slug": "reformat-department-table",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965519827"
     },
     {
       "id": "1302",
@@ -6651,6 +6875,19 @@
       "submission_id": "1931486120"
     },
     {
+      "id": "1523",
+      "title": "Capital Gain/Loss",
+      "slug": "capital-gainloss",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965520168"
+    },
+    {
       "id": "1527",
       "title": "Number of Ways to Paint N × 3 Grid",
       "slug": "number-of-ways-to-paint-n-3-grid",
@@ -6675,6 +6912,19 @@
       "date_solved": "2025-11-08",
       "status": "solved",
       "submission_id": "1823879122"
+    },
+    {
+      "id": "1541",
+      "title": "Top Travellers",
+      "slug": "top-travellers",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965520369"
     },
     {
       "id": "1544",
@@ -7099,6 +7349,19 @@
       "date_solved": "2026-03-15",
       "status": "solved",
       "submission_id": "1948710191"
+    },
+    {
+      "id": "1734",
+      "title": "Bank Account Summary II",
+      "slug": "bank-account-summary-ii",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965520612"
     },
     {
       "id": "1756",
@@ -7694,6 +7957,19 @@
       "submission_id": "1823993887"
     },
     {
+      "id": "2041",
+      "title": "The Latest Login in 2020",
+      "slug": "the-latest-login-in-2020",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965520929"
+    },
+    {
       "id": "2057",
       "title": "Count Salary Categories",
       "slug": "count-salary-categories",
@@ -7813,6 +8089,19 @@
       "date_solved": "2026-03-08",
       "status": "solved",
       "submission_id": "1941691941"
+    },
+    {
+      "id": "2110",
+      "title": "Employees With Missing Information",
+      "slug": "employees-with-missing-information",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965521239"
     },
     {
       "id": "2112",
@@ -9067,6 +9356,22 @@
       "submission_id": "1760239144"
     },
     {
+      "id": "2846",
+      "title": "Robot Collisions",
+      "slug": "robot-collisions",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Stack",
+        "Sorting",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965501348"
+    },
+    {
       "id": "2858",
       "title": "Join Two Arrays by ID",
       "slug": "join-two-arrays-by-id",
@@ -9999,6 +10304,19 @@
       "submission_id": "1847796104"
     },
     {
+      "id": "3711",
+      "title": "First Letter Capitalization II",
+      "slug": "first-letter-capitalization-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965521681"
+    },
+    {
       "id": "3721",
       "title": "Count Mentions Per User",
       "slug": "count-mentions-per-user",
@@ -10075,6 +10393,19 @@
       "submission_id": "1883577689"
     },
     {
+      "id": "3767",
+      "title": "Find Students Who Improved",
+      "slug": "find-students-who-improved",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965521983"
+    },
+    {
       "id": "3770",
       "title": "Lexicographically Smallest Generated String",
       "slug": "lexicographically-smallest-generated-string",
@@ -10144,6 +10475,19 @@
       "submission_id": "1884796806"
     },
     {
+      "id": "3782",
+      "title": "Find Valid Emails",
+      "slug": "find-valid-emails",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965522194"
+    },
+    {
       "id": "3788",
       "title": "Maximum Unique Subarray Sum After Deletion",
       "slug": "maximum-unique-subarray-sum-after-deletion",
@@ -10208,6 +10552,19 @@
       "submission_id": "1830354581"
     },
     {
+      "id": "3792",
+      "title": "Find Invalid IP Addresses",
+      "slug": "find-invalid-ip-addresses",
+      "difficulty": "Hard",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965522983"
+    },
+    {
       "id": "3797",
       "title": "Design Spreadsheet",
       "slug": "design-spreadsheet",
@@ -10223,6 +10580,32 @@
       "date_solved": "2025-09-19",
       "status": "solved",
       "submission_id": "1776103395"
+    },
+    {
+      "id": "3803",
+      "title": "Find Products with Valid Serial Numbers",
+      "slug": "find-products-with-valid-serial-numbers",
+      "difficulty": "Easy",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965523224"
+    },
+    {
+      "id": "3816",
+      "title": "DNA Pattern Recognition ",
+      "slug": "dna-pattern-recognition",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965523427"
     },
     {
       "id": "3819",
@@ -10300,6 +10683,19 @@
       "date_solved": "2025-12-06",
       "status": "solved",
       "submission_id": "1848274683"
+    },
+    {
+      "id": "3848",
+      "title": "Analyze Subscription Conversion ",
+      "slug": "analyze-subscription-conversion",
+      "difficulty": "Medium",
+      "tags": [
+        "Database"
+      ],
+      "language": "mysql",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965523759"
     },
     {
       "id": "3849",
@@ -10974,6 +11370,48 @@
       "submission_id": "1965539360"
     },
     {
+      "id": "4178",
+      "title": "Vowel-Consonant Score",
+      "slug": "vowel-consonant-score",
+      "difficulty": "Easy",
+      "tags": [
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965516967"
+    },
+    {
+      "id": "4186",
+      "title": "Count Residue Prefixes",
+      "slug": "count-residue-prefixes",
+      "difficulty": "Easy",
+      "tags": [
+        "Hash Table",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965517245"
+    },
+    {
+      "id": "4194",
+      "title": "Count Monobit Integers",
+      "slug": "count-monobit-integers",
+      "difficulty": "Easy",
+      "tags": [
+        "Bit Manipulation",
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965516250"
+    },
+    {
       "id": "4195",
       "title": "Find Users with High Token Usage",
       "slug": "find-users-with-high-token-usage",
@@ -10983,6 +11421,21 @@
       "date_solved": "2026-04-01",
       "status": "solved",
       "submission_id": "1965540015"
+    },
+    {
+      "id": "4200",
+      "title": "Reverse Letters Then Special Characters in a String",
+      "slug": "reverse-letters-then-special-characters-in-a-string",
+      "difficulty": "Easy",
+      "tags": [
+        "Two Pointers",
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965516528"
     },
     {
       "id": "4208",
@@ -10996,6 +11449,51 @@
       "submission_id": "1965540307"
     },
     {
+      "id": "4212",
+      "title": "Toggle Light Bulbs",
+      "slug": "toggle-light-bulbs",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965512432"
+    },
+    {
+      "id": "4214",
+      "title": "Count Dominant Indices",
+      "slug": "count-dominant-indices",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965515474"
+    },
+    {
+      "id": "4216",
+      "title": "Weighted Word Mapping",
+      "slug": "weighted-word-mapping",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965514283"
+    },
+    {
       "id": "4227",
       "title": "Find Users with Persistent Behavior Patterns",
       "slug": "find-users-with-persistent-behavior-patterns",
@@ -11005,8 +11503,113 @@
       "date_solved": "2026-04-01",
       "status": "solved",
       "submission_id": "1965540658"
+    },
+    {
+      "id": "4229",
+      "title": "Trim Trailing Vowels",
+      "slug": "trim-trailing-vowels",
+      "difficulty": "Easy",
+      "tags": [
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965511695"
+    },
+    {
+      "id": "4231",
+      "title": "Smallest Pair With Different Frequencies",
+      "slug": "smallest-pair-with-different-frequencies",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Counting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965512050"
+    },
+    {
+      "id": "4245",
+      "title": "Count Commas in Range",
+      "slug": "count-commas-in-range",
+      "difficulty": "Easy",
+      "tags": [
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965510346"
+    },
+    {
+      "id": "4247",
+      "title": "Minimum Capacity Box",
+      "slug": "minimum-capacity-box",
+      "difficulty": "Easy",
+      "tags": [
+        "Array"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965511286"
+    },
+    {
+      "id": "4252",
+      "title": "First Unique Even Element",
+      "slug": "first-unique-even-element",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Counting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965510781"
+    },
+    {
+      "id": "4255",
+      "title": "Minimum Absolute Difference Between Two Values",
+      "slug": "minimum-absolute-difference-between-two-values",
+      "difficulty": "Easy",
+      "tags": [],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965509425"
+    },
+    {
+      "id": "4256",
+      "title": "Construct Uniform Parity Array I",
+      "slug": "construct-uniform-parity-array-i",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965509913"
+    },
+    {
+      "id": "4264",
+      "title": "First Matching Character From Both Ends",
+      "slug": "first-matching-character-from-both-ends",
+      "difficulty": "Easy",
+      "tags": [],
+      "language": "java",
+      "date_solved": "2026-04-01",
+      "status": "solved",
+      "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-04T11:35:15.072715+00:00",
-  "total_solved": 755
+  "last_updated": "2026-04-04T12:03:39.563701+00:00",
+  "total_solved": 798
 }
