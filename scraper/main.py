@@ -45,6 +45,8 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--limit", type=int, default=50, help="Number of recent AC submissions to fetch (ignored when --all is set)")
     p.add_argument("--all", dest="fetch_all", action="store_true",
                    help="Paginate through ALL submissions instead of just the most recent 20")
+    p.add_argument("--validate", action="store_true",
+                   help="Validate LeetCode credentials and exit (don't scrape)")
     return p.parse_args()
 
 
@@ -67,17 +69,41 @@ def main() -> None:
             "Pass --username <name> or set LEETCODE_USERNAME as a GitHub Variable."
         )
 
-    client = LeetCodeClient()
+    # Initialize client with error handling
+    try:
+        client = LeetCodeClient()
+    except Exception as exc:
+        raise RuntimeError(f"Failed to initialize LeetCode client: {exc}") from exc
 
-    # Guardrail: ensure the authenticated cookies belong to the same user being scraped.
-    session_user = client.get_logged_in_username()
+    # Validate authentication and retrieve logged-in username
+    try:
+        logger.info("Validating LeetCode credentials for @%s…", args.username)
+        session_user = client.get_logged_in_username()
+    except RuntimeError as exc:
+        raise RuntimeError(
+            f"LeetCode authentication failed: {exc}\n\n"
+            "This usually means:\n"
+            "  1. GitHub Secrets are not configured (Settings → Secrets and variables → Actions)\n"
+            "  2. LEETCODE_SESSION or LEETCODE_CSRF secrets are missing\n"
+            "  3. The cookies are expired — refresh them from leetcode.com DevTools → Application → Cookies\n"
+        ) from exc
+
+    # Ensure the authenticated cookies belong to the requested user
     if session_user.lower() != args.username.strip().lower():
         raise RuntimeError(
-            "LeetCode username mismatch: "
+            f"LeetCode username mismatch: "
             f"--username is '{args.username}', but session cookie belongs to '{session_user}'. "
             "Use cookies from the same account as LEETCODE_USERNAME."
         )
 
+    logger.info("✓ Authentication successful for @%s", session_user)
+
+    # If --validate flag is set, just check credentials and exit
+    if args.validate:
+        logger.info("✓ Credential validation successful — exiting (--validate mode)")
+        return
+
+    # Continue with normal scraping
     index = load_index()
 
     if args.fetch_all:

@@ -94,6 +94,13 @@ jobs:
       - name: Install scraper dependencies
         run: pip install -r scraper/requirements.txt
 
+      # ── Pre-flight: validate LeetCode credentials work ─────────────────────
+      - name: Validate LeetCode credentials
+        env:
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF:    ${{ secrets.LEETCODE_CSRF }}
+        run: python scraper/main.py --username "$LEETCODE_USERNAME" --validate
+
       # ── Run scraper ───────────────────────────────────────────────────────
       - name: Run LeetCode scraper
         env:
