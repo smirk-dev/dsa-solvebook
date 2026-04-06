@@ -1862,6 +1862,20 @@
       "submission_id": "1830368423"
     },
     {
+      "id": "132",
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "String",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-06",
+      "status": "solved",
+      "submission_id": "1970233458"
+    },
+    {
       "id": "133",
       "title": "Clone Graph",
       "slug": "clone-graph",
@@ -1964,6 +1978,25 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830359170"
+    },
+    {
+      "id": "140",
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Dynamic Programming",
+        "Backtracking",
+        "Trie",
+        "Memoization"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-06",
+      "status": "solved",
+      "submission_id": "1970234009"
     },
     {
       "id": "141",
@@ -5364,6 +5397,21 @@
       "date_solved": "2025-11-08",
       "status": "solved",
       "submission_id": "1823982990"
+    },
+    {
+      "id": "906",
+      "title": "Walking Robot Simulation",
+      "slug": "walking-robot-simulation",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-06",
+      "status": "solved",
+      "submission_id": "1970232184"
     },
     {
       "id": "907",
@@ -11624,6 +11672,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-05T08:52:31.166424+00:00",
-  "total_solved": 799
+  "last_updated": "2026-04-06T06:01:37.204131+00:00",
+  "total_solved": 802
 }
