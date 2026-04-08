@@ -11206,6 +11206,21 @@
       "submission_id": "1954450818"
     },
     {
+      "id": "3974",
+      "title": "XOR After Range Multiplication Queries I",
+      "slug": "xor-after-range-multiplication-queries-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Divide and Conquer",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-08",
+      "status": "solved",
+      "submission_id": "1972321760"
+    },
+    {
       "id": "3980",
       "title": "Best Time to Buy and Sell Stock using Strategy",
       "slug": "best-time-to-buy-and-sell-stock-using-strategy",
@@ -11686,6 +11701,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-07T09:10:48.681449+00:00",
-  "total_solved": 803
+  "last_updated": "2026-04-08T09:10:21.252530+00:00",
+  "total_solved": 804
 }
