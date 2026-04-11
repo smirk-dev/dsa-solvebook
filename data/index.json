@@ -11478,6 +11478,20 @@
       "submission_id": "1974174565"
     },
     {
+      "id": "4119",
+      "title": "Minimum Distance Between Three Equal Elements II",
+      "slug": "minimum-distance-between-three-equal-elements-ii",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-11",
+      "status": "solved",
+      "submission_id": "1975139528"
+    },
+    {
       "id": "4169",
       "title": "Most Common Course Pairs",
       "slug": "most-common-course-pairs",
@@ -11729,6 +11743,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-10T06:01:20.244387+00:00",
-  "total_solved": 806
+  "last_updated": "2026-04-11T08:52:54.257185+00:00",
+  "total_solved": 807
 }
