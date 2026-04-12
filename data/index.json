@@ -6645,6 +6645,20 @@
       "submission_id": "1824008456"
     },
     {
+      "id": "1443",
+      "title": "Minimum Distance to Type a Word Using Two Fingers",
+      "slug": "minimum-distance-to-type-a-word-using-two-fingers",
+      "difficulty": "Hard",
+      "tags": [
+        "String",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-12",
+      "status": "solved",
+      "submission_id": "1976118331"
+    },
+    {
       "id": "1445",
       "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
       "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
@@ -11743,6 +11757,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-11T08:52:54.257185+00:00",
-  "total_solved": 807
+  "last_updated": "2026-04-12T08:56:41.361248+00:00",
+  "total_solved": 808
 }
