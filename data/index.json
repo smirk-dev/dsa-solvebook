@@ -7864,6 +7864,19 @@
       "submission_id": "1718228455"
     },
     {
+      "id": "1975",
+      "title": "Minimum Distance to the Target Element",
+      "slug": "minimum-distance-to-the-target-element",
+      "difficulty": "Easy",
+      "tags": [
+        "Array"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-13",
+      "status": "solved",
+      "submission_id": "1976993828"
+    },
+    {
       "id": "1988",
       "title": "Minimize Maximum Pair Sum in Array",
       "slug": "minimize-maximum-pair-sum-in-array",
@@ -11757,6 +11770,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-12T08:56:41.361248+00:00",
-  "total_solved": 808
+  "last_updated": "2026-04-13T06:20:40.700055+00:00",
+  "total_solved": 809
 }
