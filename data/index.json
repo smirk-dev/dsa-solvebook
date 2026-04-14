@@ -8931,6 +8931,21 @@
       "submission_id": "1823997101"
     },
     {
+      "id": "2554",
+      "title": "Minimum Total Distance Traveled",
+      "slug": "minimum-total-distance-traveled",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-14",
+      "status": "solved",
+      "submission_id": "1978020695"
+    },
+    {
       "id": "2559",
       "title": "Maximum Number of Non-overlapping Palindrome Substrings",
       "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
@@ -11770,6 +11785,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-13T06:20:40.700055+00:00",
-  "total_solved": 809
+  "last_updated": "2026-04-14T09:25:38.702087+00:00",
+  "total_solved": 810
 }
