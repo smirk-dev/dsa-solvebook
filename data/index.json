@@ -9071,6 +9071,20 @@
       "submission_id": "1830337105"
     },
     {
+      "id": "2598",
+      "title": "Shortest Distance to Target String in a Circular Array",
+      "slug": "shortest-distance-to-target-string-in-a-circular-array",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-15",
+      "status": "solved",
+      "submission_id": "1978958905"
+    },
+    {
       "id": "2610",
       "title": "Closest Prime Numbers in Range",
       "slug": "closest-prime-numbers-in-range",
@@ -11785,6 +11799,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-14T09:25:38.702087+00:00",
-  "total_solved": 810
+  "last_updated": "2026-04-15T09:26:32.487504+00:00",
+  "total_solved": 811
 }
