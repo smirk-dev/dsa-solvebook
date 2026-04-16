@@ -10511,6 +10511,21 @@
       "submission_id": "1751355925"
     },
     {
+      "id": "3750",
+      "title": "Closest Equal Element Queries",
+      "slug": "closest-equal-element-queries",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Binary Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-16",
+      "status": "solved",
+      "submission_id": "1979962250"
+    },
+    {
       "id": "3763",
       "title": "Separate Squares I",
       "slug": "separate-squares-i",
@@ -11799,6 +11814,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-15T09:26:32.487504+00:00",
-  "total_solved": 811
+  "last_updated": "2026-04-16T14:00:38.310527+00:00",
+  "total_solved": 812
 }
