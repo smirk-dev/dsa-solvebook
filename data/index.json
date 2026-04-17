@@ -11563,6 +11563,21 @@
       "submission_id": "1975139528"
     },
     {
+      "id": "4139",
+      "title": "Minimum Absolute Distance Between Mirror Pairs",
+      "slug": "minimum-absolute-distance-between-mirror-pairs",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-17",
+      "status": "solved",
+      "submission_id": "1980696156"
+    },
+    {
       "id": "4169",
       "title": "Most Common Course Pairs",
       "slug": "most-common-course-pairs",
@@ -11814,6 +11829,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-16T14:00:38.310527+00:00",
-  "total_solved": 812
+  "last_updated": "2026-04-17T09:24:24.766119+00:00",
+  "total_solved": 813
 }
