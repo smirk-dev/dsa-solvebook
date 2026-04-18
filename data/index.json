@@ -11578,6 +11578,19 @@
       "submission_id": "1980696156"
     },
     {
+      "id": "4168",
+      "title": "Mirror Distance of an Integer",
+      "slug": "mirror-distance-of-an-integer",
+      "difficulty": "Easy",
+      "tags": [
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-18",
+      "status": "solved",
+      "submission_id": "1981507401"
+    },
+    {
       "id": "4169",
       "title": "Most Common Course Pairs",
       "slug": "most-common-course-pairs",
@@ -11829,6 +11842,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-17T09:24:24.766119+00:00",
-  "total_solved": 813
+  "last_updated": "2026-04-18T08:57:57.200227+00:00",
+  "total_solved": 814
 }
