@@ -7877,6 +7877,21 @@
       "submission_id": "1976993828"
     },
     {
+      "id": "1984",
+      "title": "Maximum Distance Between a Pair of Values",
+      "slug": "maximum-distance-between-a-pair-of-values",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-19",
+      "status": "solved",
+      "submission_id": "1982611137"
+    },
+    {
       "id": "1988",
       "title": "Minimize Maximum Pair Sum in Array",
       "slug": "minimize-maximum-pair-sum-in-array",
@@ -11842,6 +11857,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-18T08:57:57.200227+00:00",
-  "total_solved": 814
+  "last_updated": "2026-04-19T13:13:58.578801+00:00",
+  "total_solved": 815
 }
