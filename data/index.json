@@ -8407,6 +8407,20 @@
       "submission_id": "1830336385"
     },
     {
+      "id": "2199",
+      "title": "Two Furthest Houses With Different Colors",
+      "slug": "two-furthest-houses-with-different-colors",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Greedy"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-20",
+      "status": "solved",
+      "submission_id": "1983161256"
+    },
+    {
       "id": "2213",
       "title": "Find All People With Secret",
       "slug": "find-all-people-with-secret",
@@ -11857,6 +11871,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-19T13:13:58.578801+00:00",
-  "total_solved": 815
+  "last_updated": "2026-04-20T06:20:59.642157+00:00",
+  "total_solved": 816
 }
