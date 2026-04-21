@@ -7700,6 +7700,21 @@
       "submission_id": "1722111716"
     },
     {
+      "id": "1840",
+      "title": "Minimize Hamming Distance After Swap Operations",
+      "slug": "minimize-hamming-distance-after-swap-operations",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Union-Find"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-21",
+      "status": "solved",
+      "submission_id": "1984112852"
+    },
+    {
       "id": "1845",
       "title": "Largest Submatrix With Rearrangements",
       "slug": "largest-submatrix-with-rearrangements",
@@ -11871,6 +11886,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-20T06:20:59.642157+00:00",
-  "total_solved": 816
+  "last_updated": "2026-04-21T06:06:09.713441+00:00",
+  "total_solved": 817
 }
