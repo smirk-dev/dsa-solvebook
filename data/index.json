@@ -8959,6 +8959,21 @@
       "submission_id": "1731183269"
     },
     {
+      "id": "2550",
+      "title": "Words Within Two Edits of Dictionary",
+      "slug": "words-within-two-edits-of-dictionary",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "String",
+        "Trie"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-22",
+      "status": "solved",
+      "submission_id": "1984920601"
+    },
+    {
       "id": "2553",
       "title": "Total Cost to Hire K Workers",
       "slug": "total-cost-to-hire-k-workers",
@@ -11886,6 +11901,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-21T06:06:09.713441+00:00",
-  "total_solved": 817
+  "last_updated": "2026-04-22T03:20:50.060294+00:00",
+  "total_solved": 818
 }
