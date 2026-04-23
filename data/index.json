@@ -9239,6 +9239,21 @@
       "submission_id": "1947698956"
     },
     {
+      "id": "2721",
+      "title": "Sum of Distances",
+      "slug": "sum-of-distances",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-23",
+      "status": "solved",
+      "submission_id": "1985906932"
+    },
+    {
       "id": "2731",
       "title": "Memoize",
       "slug": "memoize",
@@ -11901,6 +11916,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-22T03:20:50.060294+00:00",
-  "total_solved": 818
+  "last_updated": "2026-04-23T06:09:49.911059+00:00",
+  "total_solved": 819
 }
