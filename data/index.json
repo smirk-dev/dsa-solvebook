@@ -9730,6 +9730,20 @@
       "submission_id": "1962652314"
     },
     {
+      "id": "3019",
+      "title": "Furthest Point From Origin",
+      "slug": "furthest-point-from-origin",
+      "difficulty": "Easy",
+      "tags": [
+        "String",
+        "Counting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-24",
+      "status": "solved",
+      "submission_id": "1986715292"
+    },
+    {
       "id": "3031",
       "title": "Construct Product Matrix",
       "slug": "construct-product-matrix",
@@ -11916,6 +11930,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-23T06:09:49.911059+00:00",
-  "total_solved": 819
+  "last_updated": "2026-04-24T06:12:10.412449+00:00",
+  "total_solved": 820
 }
