@@ -10710,6 +10710,23 @@
       "submission_id": "1884796806"
     },
     {
+      "id": "3781",
+      "title": "Maximize the Distance Between Points on a Square",
+      "slug": "maximize-the-distance-between-points-on-a-square",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Math",
+        "Binary Search",
+        "Geometry",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-25",
+      "status": "solved",
+      "submission_id": "1987524301"
+    },
+    {
       "id": "3782",
       "title": "Find Valid Emails",
       "slug": "find-valid-emails",
@@ -11930,6 +11947,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-24T06:12:10.412449+00:00",
-  "total_solved": 820
+  "last_updated": "2026-04-25T09:00:31.853912+00:00",
+  "total_solved": 821
 }
