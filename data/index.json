@@ -7298,6 +7298,23 @@
       "submission_id": "1830336792"
     },
     {
+      "id": "1663",
+      "title": "Detect Cycles in 2D Grid",
+      "slug": "detect-cycles-in-2d-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-26",
+      "status": "solved",
+      "submission_id": "1988340761"
+    },
+    {
       "id": "1664",
       "title": "Find Users With Valid E-Mails",
       "slug": "find-users-with-valid-e-mails",
@@ -11947,6 +11964,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-25T09:00:31.853912+00:00",
-  "total_solved": 821
+  "last_updated": "2026-04-26T06:11:17.175237+00:00",
+  "total_solved": 822
 }
