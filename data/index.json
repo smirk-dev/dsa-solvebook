@@ -6893,6 +6893,23 @@
       "submission_id": "1830314465"
     },
     {
+      "id": "1507",
+      "title": "Check if There is a Valid Path in a Grid",
+      "slug": "check-if-there-is-a-valid-path-in-a-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-27",
+      "status": "solved",
+      "submission_id": "1989192655"
+    },
+    {
       "id": "1508",
       "title": "Longest Happy Prefix",
       "slug": "longest-happy-prefix",
@@ -11964,6 +11981,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-26T06:11:17.175237+00:00",
-  "total_solved": 822
+  "last_updated": "2026-04-27T10:22:59.471929+00:00",
+  "total_solved": 823
 }
