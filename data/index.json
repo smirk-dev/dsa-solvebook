@@ -8318,6 +8318,22 @@
       "submission_id": "1830136450"
     },
     {
+      "id": "2160",
+      "title": "Minimum Operations to Make a Uni-Value Grid",
+      "slug": "minimum-operations-to-make-a-uni-value-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Math",
+        "Sorting",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-28",
+      "status": "solved",
+      "submission_id": "1989962517"
+    },
+    {
       "id": "2164",
       "title": "Two Best Non-Overlapping Events",
       "slug": "two-best-non-overlapping-events",
@@ -11981,6 +11997,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-27T10:22:59.471929+00:00",
-  "total_solved": 823
+  "last_updated": "2026-04-28T06:01:07.702940+00:00",
+  "total_solved": 824
 }
