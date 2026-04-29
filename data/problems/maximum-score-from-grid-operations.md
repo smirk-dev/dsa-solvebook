@@ -1,0 +1,90 @@
+---
+id: "3470"
+title: "Maximum Score From Grid Operations"
+slug: "maximum-score-from-grid-operations"
+difficulty: "Hard"
+tags: ["Array", "Dynamic Programming", "Matrix", "Prefix Sum"]
+language: "java"
+date_solved: "2026-04-29"
+status: "solved"
+submission_id: "1990703916"
+---
+
+## Problem
+
+You are given a 2D matrix `grid` of size `n x n`. Initially, all cells of the grid are colored white. In one operation, you can select any cell of indices `(i, j)`, and color black all the cells of the `jth` column starting from the top row down to the `ith` row.
+
+The grid score is the sum of all `grid[i][j]` such that cell `(i, j)` is white and it has a horizontally adjacent black cell.
+
+Return the **maximum** score that can be achieved after some number of operations.
+
+ 
+
+**Example 1:**
+
+**Input:** grid = [[0,0,0,0,0],[0,0,3,0,0],[0,1,0,0,0],[5,0,0,3,0],[0,0,0,0,2]]
+
+**Output:** 11
+
+**Explanation:**
+
+In the first operation, we color all cells in column 1 down to row 3, and in the second operation, we color all cells in column 4 down to the last row. The score of the resulting grid is `grid[3][0] + grid[1][2] + grid[3][3]` which is equal to 11.
+
+**Example 2:**
+
+**Input:** grid = [[10,9,0,0,15],[7,1,0,8,0],[5,20,0,11,0],[0,0,0,1,2],[8,12,1,10,3]]
+
+**Output:** 94
+
+**Explanation:**
+
+We perform operations on 1, 2, and 3 down to rows 1, 4, and 0, respectively. The score of the resulting grid is `grid[0][0] + grid[1][0] + grid[2][1] + grid[4][1] + grid[1][3] + grid[2][3] + grid[3][3] + grid[4][3] + grid[0][4]` which is equal to 94.
+
+ 
+
+**Constraints:**
+
+  * `1 <= n == grid.length <= 100`
+  * `n == grid[i].length`
+  * `0 <= grid[i][j] <= 109`
+
+## Solution
+
+```java
+class Solution {
+    public long maximumScore(int[][] grid) {
+        int n = grid.length;
+        if (n == 1) 
+            return 0;
+        long[] dp0 = new long[n + 1];
+        long[] dp1 = new long[n + 1];
+        for (int j = 1; j < n; j++) {
+            long[] new_dp0 = new long[n + 1];
+            long[] new_dp1 = new long[n + 1];
+            for (int i = 0; i <= n; i++) {
+                long prev = 0, curr = 0;
+                for (int x = 0; x < i; x++)
+                    curr += grid[x][j];
+                for (int y = 0; y <= n; y++) {
+                    if (y > 0 && y <= i)
+                        curr -= grid[y - 1][j];
+                    if (y > i)
+                        prev += grid[y - 1][j - 1];
+                    new_dp0[y] = Math.max(new_dp0[y], Math.max(prev + dp0[i], dp1[i]));
+                    new_dp1[y] = Math.max(new_dp1[y], Math.max(curr + dp1[i], curr + prev + dp0[i]));
+                }
+            }
+            dp0 = new_dp0;
+            dp1 = new_dp1;
+        }
+        long res = 0;
+        for (long v : dp1) 
+            res = Math.max(res, v);
+        return res;
+    }
+}
+```
+
+## Editorial
+
+_Add your notes here — why did you choose this approach? What's the time/space complexity?_

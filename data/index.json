@@ -10368,6 +10368,22 @@
       "submission_id": "1768231535"
     },
     {
+      "id": "3470",
+      "title": "Maximum Score From Grid Operations",
+      "slug": "maximum-score-from-grid-operations",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-29",
+      "status": "solved",
+      "submission_id": "1990703916"
+    },
+    {
       "id": "3483",
       "title": "Alternating Groups II",
       "slug": "alternating-groups-ii",
@@ -11997,6 +12013,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-28T06:01:07.702940+00:00",
-  "total_solved": 824
+  "last_updated": "2026-04-29T06:28:22.542728+00:00",
+  "total_solved": 825
 }
