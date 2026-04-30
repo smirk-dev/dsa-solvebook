@@ -11525,6 +11525,21 @@
       "submission_id": "1932621964"
     },
     {
+      "id": "3986",
+      "title": "Maximum Path Score in a Grid",
+      "slug": "maximum-path-score-in-a-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-04-30",
+      "status": "solved",
+      "submission_id": "1991595736"
+    },
+    {
       "id": "3996",
       "title": "Find Books with Polarized Opinions",
       "slug": "find-books-with-polarized-opinions",
@@ -12013,6 +12028,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-29T06:28:22.542728+00:00",
-  "total_solved": 825
+  "last_updated": "2026-04-30T10:11:27.676339+00:00",
+  "total_solved": 826
 }
