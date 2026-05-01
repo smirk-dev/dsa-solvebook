@@ -3823,6 +3823,21 @@
       "submission_id": "1830333290"
     },
     {
+      "id": "396",
+      "title": "Rotate Function",
+      "slug": "rotate-function",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-01",
+      "status": "solved",
+      "submission_id": "1992295334"
+    },
+    {
       "id": "399",
       "title": "Evaluate Division",
       "slug": "evaluate-division",
@@ -12028,6 +12043,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-04-30T10:11:27.676339+00:00",
-  "total_solved": 826
+  "last_updated": "2026-05-01T06:40:59.162744+00:00",
+  "total_solved": 827
 }
