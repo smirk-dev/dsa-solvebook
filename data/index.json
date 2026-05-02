@@ -5132,6 +5132,20 @@
       "submission_id": "1830327174"
     },
     {
+      "id": "804",
+      "title": "Rotated Digits",
+      "slug": "rotated-digits",
+      "difficulty": "Medium",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-02",
+      "status": "solved",
+      "submission_id": "1993074453"
+    },
+    {
       "id": "806",
       "title": "Domino and Tromino Tiling",
       "slug": "domino-and-tromino-tiling",
@@ -12043,6 +12057,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-01T06:40:59.162744+00:00",
-  "total_solved": 827
+  "last_updated": "2026-05-02T06:11:36.839038+00:00",
+  "total_solved": 828
 }
