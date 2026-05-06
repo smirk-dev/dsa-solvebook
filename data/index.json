@@ -7942,6 +7942,21 @@
       "submission_id": "1718228455"
     },
     {
+      "id": "1972",
+      "title": "Rotating the Box",
+      "slug": "rotating-the-box",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-06",
+      "status": "solved",
+      "submission_id": "1996857853"
+    },
+    {
       "id": "1975",
       "title": "Minimum Distance to the Target Element",
       "slug": "minimum-distance-to-the-target-element",
@@ -12057,6 +12072,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-02T06:11:36.839038+00:00",
-  "total_solved": 828
+  "last_updated": "2026-05-06T18:57:33.389357+00:00",
+  "total_solved": 829
 }
