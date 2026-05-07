@@ -11536,6 +11536,20 @@
       "submission_id": "1858869265"
     },
     {
+      "id": "3981",
+      "title": "Jump Game IX",
+      "slug": "jump-game-ix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-07",
+      "status": "solved",
+      "submission_id": "1997241958"
+    },
+    {
       "id": "3982",
       "title": "Maximum Walls Destroyed by Robots",
       "slug": "maximum-walls-destroyed-by-robots",
@@ -12072,6 +12086,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-06T18:57:33.389357+00:00",
-  "total_solved": 829
+  "last_updated": "2026-05-07T10:29:35.067903+00:00",
+  "total_solved": 830
 }
