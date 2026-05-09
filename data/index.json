@@ -8167,6 +8167,21 @@
       "submission_id": "1965520929"
     },
     {
+      "id": "2043",
+      "title": "Cyclically Rotating a Grid",
+      "slug": "cyclically-rotating-a-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Matrix",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-09",
+      "status": "solved",
+      "submission_id": "1998627933"
+    },
+    {
       "id": "2057",
       "title": "Count Salary Categories",
       "slug": "count-salary-categories",
@@ -12103,6 +12118,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-08T09:44:47.927697+00:00",
-  "total_solved": 831
+  "last_updated": "2026-05-09T09:24:25.117045+00:00",
+  "total_solved": 832
 }
