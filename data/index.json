@@ -9687,6 +9687,20 @@
       "submission_id": "1965501348"
     },
     {
+      "id": "2855",
+      "title": "Maximum Number of Jumps to Reach the Last Index",
+      "slug": "maximum-number-of-jumps-to-reach-the-last-index",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-10",
+      "status": "solved",
+      "submission_id": "1999530040"
+    },
+    {
       "id": "2858",
       "title": "Join Two Arrays by ID",
       "slug": "join-two-arrays-by-id",
@@ -12118,6 +12132,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-09T09:24:25.117045+00:00",
-  "total_solved": 832
+  "last_updated": "2026-05-10T09:42:20.428535+00:00",
+  "total_solved": 833
 }
