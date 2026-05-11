@@ -9283,6 +9283,20 @@
       "submission_id": "1823996487"
     },
     {
+      "id": "2639",
+      "title": "Separate the Digits in an Array",
+      "slug": "separate-the-digits-in-an-array",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-11",
+      "status": "solved",
+      "submission_id": "2000392058"
+    },
+    {
       "id": "2678",
       "title": "Design Graph With Shortest Path Calculator",
       "slug": "design-graph-with-shortest-path-calculator",
@@ -12132,6 +12146,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-10T09:42:20.428535+00:00",
-  "total_solved": 833
+  "last_updated": "2026-05-11T11:29:56.031427+00:00",
+  "total_solved": 834
 }
