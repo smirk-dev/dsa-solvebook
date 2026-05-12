@@ -7576,6 +7576,21 @@
       "submission_id": "1830322953"
     },
     {
+      "id": "1784",
+      "title": "Minimum Initial Energy to Finish Tasks",
+      "slug": "minimum-initial-energy-to-finish-tasks",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-12",
+      "status": "solved",
+      "submission_id": "2001152440"
+    },
+    {
       "id": "1798",
       "title": "Max Number of K-Sum Pairs",
       "slug": "max-number-of-k-sum-pairs",
@@ -12146,6 +12161,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-11T11:29:56.031427+00:00",
-  "total_solved": 834
+  "last_updated": "2026-05-12T10:37:17.394139+00:00",
+  "total_solved": 835
 }
