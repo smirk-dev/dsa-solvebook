@@ -7591,6 +7591,21 @@
       "submission_id": "2001152440"
     },
     {
+      "id": "1793",
+      "title": "Minimum Moves to Make Array Complementary",
+      "slug": "minimum-moves-to-make-array-complementary",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-13",
+      "status": "solved",
+      "submission_id": "2001794237"
+    },
+    {
       "id": "1798",
       "title": "Max Number of K-Sum Pairs",
       "slug": "max-number-of-k-sum-pairs",
@@ -12161,6 +12176,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-12T10:37:17.394139+00:00",
-  "total_solved": 835
+  "last_updated": "2026-05-13T03:53:56.308922+00:00",
+  "total_solved": 836
 }
