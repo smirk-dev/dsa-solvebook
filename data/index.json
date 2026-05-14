@@ -9853,6 +9853,21 @@
       "submission_id": "1587864378"
     },
     {
+      "id": "2892",
+      "title": "Check if Array is Good",
+      "slug": "check-if-array-is-good",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-14",
+      "status": "solved",
+      "submission_id": "2002637751"
+    },
+    {
       "id": "2905",
       "title": "Count Paths That Can Form a Palindrome in a Tree",
       "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
@@ -12176,6 +12191,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-13T03:53:56.308922+00:00",
-  "total_solved": 836
+  "last_updated": "2026-05-14T06:49:21.434784+00:00",
+  "total_solved": 837
 }
