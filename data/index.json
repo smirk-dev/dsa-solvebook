@@ -6645,6 +6645,21 @@
       "submission_id": "1776780717"
     },
     {
+      "id": "1428",
+      "title": "Jump Game III",
+      "slug": "jump-game-iii",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Depth-First Search",
+        "Breadth-First Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-17",
+      "status": "solved",
+      "submission_id": "2005251221"
+    },
+    {
       "id": "1436",
       "title": "Get Watched Videos by Your Friends",
       "slug": "get-watched-videos-by-your-friends",
@@ -12205,6 +12220,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-16T06:26:13.076561+00:00",
-  "total_solved": 838
+  "last_updated": "2026-05-17T06:50:01.566095+00:00",
+  "total_solved": 839
 }
