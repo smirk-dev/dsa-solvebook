@@ -6731,6 +6731,21 @@
       "submission_id": "1830334622"
     },
     {
+      "id": "1447",
+      "title": "Jump Game IV",
+      "slug": "jump-game-iv",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Breadth-First Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-18",
+      "status": "solved",
+      "submission_id": "2006145717"
+    },
+    {
       "id": "1448",
       "title": "Maximum 69 Number",
       "slug": "maximum-69-number",
@@ -12220,6 +12235,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-17T06:50:01.566095+00:00",
-  "total_solved": 839
+  "last_updated": "2026-05-18T11:49:07.751368+00:00",
+  "total_solved": 840
 }
