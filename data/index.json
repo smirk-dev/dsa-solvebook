@@ -9341,6 +9341,22 @@
       "submission_id": "1830311930"
     },
     {
+      "id": "2634",
+      "title": "Minimum Common Value",
+      "slug": "minimum-common-value",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Two Pointers",
+        "Binary Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-19",
+      "status": "solved",
+      "submission_id": "2007228301"
+    },
+    {
       "id": "2636",
       "title": "Maximum Subsequence Score",
       "slug": "maximum-subsequence-score",
@@ -12235,6 +12251,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-18T11:49:07.751368+00:00",
-  "total_solved": 840
+  "last_updated": "2026-05-19T11:26:10.073394+00:00",
+  "total_solved": 841
 }
