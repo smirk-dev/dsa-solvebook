@@ -9610,6 +9610,21 @@
       "submission_id": "1728917370"
     },
     {
+      "id": "2766",
+      "title": "Find the Prefix Common Array of Two Arrays",
+      "slug": "find-the-prefix-common-array-of-two-arrays",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Bit Manipulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-20",
+      "status": "solved",
+      "submission_id": "2007845348"
+    },
+    {
       "id": "2779",
       "title": "Number of Adjacent Elements With the Same Color",
       "slug": "number-of-adjacent-elements-with-the-same-color",
@@ -12251,6 +12266,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-19T11:26:10.073394+00:00",
-  "total_solved": 841
+  "last_updated": "2026-05-20T10:56:41.532453+00:00",
+  "total_solved": 842
 }
