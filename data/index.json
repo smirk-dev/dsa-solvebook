@@ -10442,6 +10442,22 @@
       "submission_id": "1887596894"
     },
     {
+      "id": "3329",
+      "title": "Find the Length of the Longest Common Prefix",
+      "slug": "find-the-length-of-the-longest-common-prefix",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String",
+        "Trie"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-21",
+      "status": "solved",
+      "submission_id": "2008857748"
+    },
+    {
       "id": "3334",
       "title": "Apple Redistribution into Boxes",
       "slug": "apple-redistribution-into-boxes",
@@ -12266,6 +12282,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-20T10:56:41.532453+00:00",
-  "total_solved": 842
+  "last_updated": "2026-05-21T11:31:06.407053+00:00",
+  "total_solved": 843
 }
