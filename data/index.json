@@ -7896,6 +7896,19 @@
       "submission_id": "1820272871"
     },
     {
+      "id": "1878",
+      "title": "Check if Array Is Sorted and Rotated",
+      "slug": "check-if-array-is-sorted-and-rotated",
+      "difficulty": "Easy",
+      "tags": [
+        "Array"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-23",
+      "status": "solved",
+      "submission_id": "2011152058"
+    },
+    {
       "id": "1882",
       "title": "The Number of Employees Which Report to Each Employee",
       "slug": "the-number-of-employees-which-report-to-each-employee",
@@ -12282,6 +12295,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-21T11:31:06.407053+00:00",
-  "total_solved": 843
+  "last_updated": "2026-05-23T20:59:50.437937+00:00",
+  "total_solved": 844
 }
