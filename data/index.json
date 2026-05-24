@@ -6847,6 +6847,21 @@
       "submission_id": "1947700166"
     },
     {
+      "id": "1466",
+      "title": "Jump Game V",
+      "slug": "jump-game-v",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-24",
+      "status": "solved",
+      "submission_id": "2011551578"
+    },
+    {
       "id": "1474",
       "title": "Longest ZigZag Path in a Binary Tree",
       "slug": "longest-zigzag-path-in-a-binary-tree",
@@ -12295,6 +12310,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-23T20:59:50.437937+00:00",
-  "total_solved": 844
+  "last_updated": "2026-05-24T10:00:04.579902+00:00",
+  "total_solved": 845
 }
