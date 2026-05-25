@@ -8154,6 +8154,22 @@
       "submission_id": "1830310222"
     },
     {
+      "id": "2001",
+      "title": "Jump Game VII",
+      "slug": "jump-game-vii",
+      "difficulty": "Medium",
+      "tags": [
+        "String",
+        "Dynamic Programming",
+        "Sliding Window",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-25",
+      "status": "solved",
+      "submission_id": "2012194740"
+    },
+    {
       "id": "2015",
       "title": "Determine Whether Matrix Can Be Obtained By Rotation",
       "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
@@ -12310,6 +12326,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-24T10:00:04.579902+00:00",
-  "total_solved": 845
+  "last_updated": "2026-05-25T04:19:07.710353+00:00",
+  "total_solved": 846
 }
