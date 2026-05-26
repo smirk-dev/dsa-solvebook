@@ -10590,6 +10590,20 @@
       "submission_id": "1943897541"
     },
     {
+      "id": "3408",
+      "title": "Count the Number of Special Characters I",
+      "slug": "count-the-number-of-special-characters-i",
+      "difficulty": "Easy",
+      "tags": [
+        "Hash Table",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-26",
+      "status": "solved",
+      "submission_id": "2013201861"
+    },
+    {
       "id": "3459",
       "title": "Find the Minimum Area to Cover All Ones II",
       "slug": "find-the-minimum-area-to-cover-all-ones-ii",
@@ -12326,6 +12340,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-25T04:19:07.710353+00:00",
-  "total_solved": 846
+  "last_updated": "2026-05-26T15:52:55.816568+00:00",
+  "total_solved": 847
 }
