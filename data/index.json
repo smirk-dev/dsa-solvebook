@@ -10562,6 +10562,20 @@
       "submission_id": "1830360844"
     },
     {
+      "id": "3405",
+      "title": "Count the Number of Special Characters II",
+      "slug": "count-the-number-of-special-characters-ii",
+      "difficulty": "Medium",
+      "tags": [
+        "Hash Table",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-27",
+      "status": "solved",
+      "submission_id": "2014173910"
+    },
+    {
       "id": "3406",
       "title": "Find All Possible Stable Binary Arrays I",
       "slug": "find-all-possible-stable-binary-arrays-i",
@@ -12340,6 +12354,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-26T15:52:55.816568+00:00",
-  "total_solved": 847
+  "last_updated": "2026-05-27T15:57:38.411264+00:00",
+  "total_solved": 848
 }
