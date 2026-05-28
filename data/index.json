@@ -10562,6 +10562,21 @@
       "submission_id": "1830360844"
     },
     {
+      "id": "3376",
+      "title": "Longest Common Suffix Queries",
+      "slug": "longest-common-suffix-queries",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "String",
+        "Trie"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-28",
+      "status": "solved",
+      "submission_id": "2015159020"
+    },
+    {
       "id": "3405",
       "title": "Count the Number of Special Characters II",
       "slug": "count-the-number-of-special-characters-ii",
@@ -12354,6 +12369,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-27T15:57:38.411264+00:00",
-  "total_solved": 848
+  "last_updated": "2026-05-28T11:42:14.462501+00:00",
+  "total_solved": 849
 }
