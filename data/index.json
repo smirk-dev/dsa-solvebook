@@ -10767,6 +10767,20 @@
       "submission_id": "1890658950"
     },
     {
+      "id": "3606",
+      "title": "Minimum Element After Replacement With Digit Sum",
+      "slug": "minimum-element-after-replacement-with-digit-sum",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-29",
+      "status": "solved",
+      "submission_id": "2016023508"
+    },
+    {
       "id": "3610",
       "title": "Find X-Sum of All K-Long Subarrays I",
       "slug": "find-x-sum-of-all-k-long-subarrays-i",
@@ -12369,6 +12383,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-28T11:42:14.462501+00:00",
-  "total_solved": 849
+  "last_updated": "2026-05-29T04:09:15.254457+00:00",
+  "total_solved": 850
 }
