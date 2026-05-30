@@ -10633,6 +10633,22 @@
       "submission_id": "2013201861"
     },
     {
+      "id": "3435",
+      "title": "Block Placement Queries",
+      "slug": "block-placement-queries",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Binary Indexed Tree",
+        "Segment Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-30",
+      "status": "solved",
+      "submission_id": "2016887027"
+    },
+    {
       "id": "3459",
       "title": "Find the Minimum Area to Cover All Ones II",
       "slug": "find-the-minimum-area-to-cover-all-ones-ii",
@@ -12383,6 +12399,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-29T04:09:15.254457+00:00",
-  "total_solved": 850
+  "last_updated": "2026-05-30T06:51:28.653268+00:00",
+  "total_solved": 851
 }
