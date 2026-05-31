@@ -8758,6 +8758,21 @@
       "submission_id": "1813077897"
     },
     {
+      "id": "2245",
+      "title": "Destroying Asteroids",
+      "slug": "destroying-asteroids",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-05-31",
+      "status": "solved",
+      "submission_id": "2017794905"
+    },
+    {
       "id": "2251",
       "title": "Number of Ways to Divide a Long Corridor",
       "slug": "number-of-ways-to-divide-a-long-corridor",
@@ -12399,6 +12414,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-30T06:51:28.653268+00:00",
-  "total_solved": 851
+  "last_updated": "2026-05-31T10:19:48.220802+00:00",
+  "total_solved": 852
 }
