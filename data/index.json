@@ -8773,6 +8773,21 @@
       "submission_id": "2017794905"
     },
     {
+      "id": "2248",
+      "title": "Minimum Cost of Buying Candies With Discount",
+      "slug": "minimum-cost-of-buying-candies-with-discount",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-01",
+      "status": "solved",
+      "submission_id": "2018690375"
+    },
+    {
       "id": "2251",
       "title": "Number of Ways to Divide a Long Corridor",
       "slug": "number-of-ways-to-divide-a-long-corridor",
@@ -12414,6 +12429,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-05-31T10:19:48.220802+00:00",
-  "total_solved": 852
+  "last_updated": "2026-06-01T04:49:29.711596+00:00",
+  "total_solved": 853
 }
