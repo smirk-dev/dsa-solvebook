@@ -11809,6 +11809,23 @@
       "submission_id": "1737403168"
     },
     {
+      "id": "3965",
+      "title": "Earliest Finish Time for Land and Water Rides I",
+      "slug": "earliest-finish-time-for-land-and-water-rides-i",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Greedy",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-02",
+      "status": "solved",
+      "submission_id": "2019732422"
+    },
+    {
       "id": "3971",
       "title": "Find Stores with Inventory Imbalance",
       "slug": "find-stores-with-inventory-imbalance",
@@ -12429,6 +12446,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-01T04:49:29.711596+00:00",
-  "total_solved": 853
+  "last_updated": "2026-06-02T04:38:27.277361+00:00",
+  "total_solved": 854
 }
