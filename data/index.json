@@ -12134,6 +12134,21 @@
       "submission_id": "1917586384"
     },
     {
+      "id": "4057",
+      "title": "Total Waviness of Numbers in Range I",
+      "slug": "total-waviness-of-numbers-in-range-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Math",
+        "Dynamic Programming",
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-04",
+      "status": "solved",
+      "submission_id": "2021842009"
+    },
+    {
       "id": "4091",
       "title": "Find Golden Hour Customers",
       "slug": "find-golden-hour-customers",
@@ -12463,6 +12478,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-03T04:47:27.707650+00:00",
-  "total_solved": 855
+  "last_updated": "2026-06-04T04:41:54.692976+00:00",
+  "total_solved": 856
 }
