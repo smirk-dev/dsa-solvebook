@@ -12199,6 +12199,20 @@
       "submission_id": "1975139528"
     },
     {
+      "id": "4128",
+      "title": "Total Waviness of Numbers in Range II",
+      "slug": "total-waviness-of-numbers-in-range-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-05",
+      "status": "solved",
+      "submission_id": "2022867847"
+    },
+    {
       "id": "4139",
       "title": "Minimum Absolute Distance Between Mirror Pairs",
       "slug": "minimum-absolute-distance-between-mirror-pairs",
@@ -12478,6 +12492,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-04T04:41:54.692976+00:00",
-  "total_solved": 856
+  "last_updated": "2026-06-05T11:32:15.158267+00:00",
+  "total_solved": 857
 }
