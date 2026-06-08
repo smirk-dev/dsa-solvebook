@@ -8819,6 +8819,21 @@
       "submission_id": "1844159369"
     },
     {
+      "id": "2265",
+      "title": "Partition Array According to Given Pivot",
+      "slug": "partition-array-according-to-given-pivot",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-08",
+      "status": "solved",
+      "submission_id": "2025911747"
+    },
+    {
       "id": "2267",
       "title": "Minimum Difference in Sums After Removal of Elements",
       "slug": "minimum-difference-in-sums-after-removal-of-elements",
@@ -12506,6 +12521,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-06T03:58:42.476310+00:00",
-  "total_solved": 858
+  "last_updated": "2026-06-08T04:40:51.202754+00:00",
+  "total_solved": 859
 }
