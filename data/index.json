@@ -12015,6 +12015,20 @@
       "submission_id": "1965537833"
     },
     {
+      "id": "4005",
+      "title": "Maximum Total Subarray Value I",
+      "slug": "maximum-total-subarray-value-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Greedy"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-09",
+      "status": "solved",
+      "submission_id": "2027056851"
+    },
+    {
       "id": "4010",
       "title": "Maximize Alternating Sum Using Swaps",
       "slug": "maximize-alternating-sum-using-swaps",
@@ -12521,6 +12535,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-08T04:40:51.202754+00:00",
-  "total_solved": 859
+  "last_updated": "2026-06-09T11:21:59.462015+00:00",
+  "total_solved": 860
 }
