@@ -11402,6 +11402,21 @@
       "submission_id": "1848274683"
     },
     {
+      "id": "3844",
+      "title": "Number of Ways to Assign Edge Weights I",
+      "slug": "number-of-ways-to-assign-edge-weights-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Math",
+        "Tree",
+        "Depth-First Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-11",
+      "status": "solved",
+      "submission_id": "2029227011"
+    },
+    {
       "id": "3848",
       "title": "Analyze Subscription Conversion ",
       "slug": "analyze-subscription-conversion",
@@ -12551,6 +12566,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-10T11:42:08.467308+00:00",
-  "total_solved": 861
+  "last_updated": "2026-06-11T04:26:01.350007+00:00",
+  "total_solved": 862
 }
