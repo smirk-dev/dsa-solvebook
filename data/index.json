@@ -11402,6 +11402,24 @@
       "submission_id": "1848274683"
     },
     {
+      "id": "3842",
+      "title": "Number of Ways to Assign Edge Weights II",
+      "slug": "number-of-ways-to-assign-edge-weights-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Bit Manipulation",
+        "Tree",
+        "Depth-First Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-12",
+      "status": "solved",
+      "submission_id": "2030357057"
+    },
+    {
       "id": "3844",
       "title": "Number of Ways to Assign Edge Weights I",
       "slug": "number-of-ways-to-assign-edge-weights-i",
@@ -12566,6 +12584,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-11T04:26:01.350007+00:00",
-  "total_solved": 862
+  "last_updated": "2026-06-12T11:47:43.441268+00:00",
+  "total_solved": 863
 }
