@@ -11716,6 +11716,20 @@
       "submission_id": "1965529999"
     },
     {
+      "id": "3931",
+      "title": "Process String with Special Operations I",
+      "slug": "process-string-with-special-operations-i",
+      "difficulty": "Medium",
+      "tags": [
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-16",
+      "status": "solved",
+      "submission_id": "2034634771"
+    },
+    {
       "id": "3932",
       "title": "Find COVID Recovery Patients",
       "slug": "find-covid-recovery-patients",
@@ -12584,6 +12598,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-12T11:47:43.441268+00:00",
-  "total_solved": 863
+  "last_updated": "2026-06-16T05:00:17.247461+00:00",
+  "total_solved": 864
 }
