@@ -11776,6 +11776,20 @@
       "submission_id": "1854309369"
     },
     {
+      "id": "3939",
+      "title": "Process String with Special Operations II",
+      "slug": "process-string-with-special-operations-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-17",
+      "status": "solved",
+      "submission_id": "2036655374"
+    },
+    {
       "id": "3942",
       "title": "Find Drivers with Improved Fuel Efficiency",
       "slug": "find-drivers-with-improved-fuel-efficiency",
@@ -12598,6 +12612,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-16T05:00:17.247461+00:00",
-  "total_solved": 864
+  "last_updated": "2026-06-17T18:25:46.268426+00:00",
+  "total_solved": 865
 }
