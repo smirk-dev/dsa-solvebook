@@ -6731,6 +6731,19 @@
       "submission_id": "1830334622"
     },
     {
+      "id": "1446",
+      "title": "Angle Between Hands of a Clock",
+      "slug": "angle-between-hands-of-a-clock",
+      "difficulty": "Medium",
+      "tags": [
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-18",
+      "status": "solved",
+      "submission_id": "2036968500"
+    },
+    {
       "id": "1447",
       "title": "Jump Game IV",
       "slug": "jump-game-iv",
@@ -12612,6 +12625,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-17T18:25:46.268426+00:00",
-  "total_solved": 865
+  "last_updated": "2026-06-19T03:42:31.196003+00:00",
+  "total_solved": 866
 }
