@@ -8057,6 +8057,21 @@
       "submission_id": "1718228455"
     },
     {
+      "id": "1968",
+      "title": "Maximum Building Height",
+      "slug": "maximum-building-height",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Math",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-20",
+      "status": "solved",
+      "submission_id": "2039799130"
+    },
+    {
       "id": "1972",
       "title": "Rotating the Box",
       "slug": "rotating-the-box",
@@ -12625,6 +12640,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-19T03:42:31.196003+00:00",
-  "total_solved": 866
+  "last_updated": "2026-06-20T14:15:01.711051+00:00",
+  "total_solved": 867
 }
