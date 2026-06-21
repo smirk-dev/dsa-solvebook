@@ -8057,6 +8057,22 @@
       "submission_id": "1718228455"
     },
     {
+      "id": "1961",
+      "title": "Maximum Ice Cream Bars",
+      "slug": "maximum-ice-cream-bars",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting",
+        "Counting Sort"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-21",
+      "status": "solved",
+      "submission_id": "2041103314"
+    },
+    {
       "id": "1968",
       "title": "Maximum Building Height",
       "slug": "maximum-building-height",
@@ -12640,6 +12656,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-20T14:15:01.711051+00:00",
-  "total_solved": 867
+  "last_updated": "2026-06-21T17:43:43.632988+00:00",
+  "total_solved": 868
 }
