@@ -6299,6 +6299,21 @@
       "submission_id": "1830301922"
     },
     {
+      "id": "1297",
+      "title": "Maximum Number of Balloons",
+      "slug": "maximum-number-of-balloons",
+      "difficulty": "Easy",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Counting"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-22",
+      "status": "solved",
+      "submission_id": "2042003596"
+    },
+    {
       "id": "1299",
       "title": "K-Concatenation Maximum Sum",
       "slug": "k-concatenation-maximum-sum",
@@ -12656,6 +12671,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-21T17:43:43.632988+00:00",
-  "total_solved": 868
+  "last_updated": "2026-06-22T13:39:02.692184+00:00",
+  "total_solved": 869
 }
