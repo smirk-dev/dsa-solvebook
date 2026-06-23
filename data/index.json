@@ -11942,6 +11942,20 @@
       "submission_id": "1965537225"
     },
     {
+      "id": "3962",
+      "title": "Number of ZigZag Arrays I",
+      "slug": "number-of-zigzag-arrays-i",
+      "difficulty": "Hard",
+      "tags": [
+        "Dynamic Programming",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-23",
+      "status": "solved",
+      "submission_id": "2042874628"
+    },
+    {
       "id": "3963",
       "title": "Number of Perfect Pairs",
       "slug": "number-of-perfect-pairs",
@@ -12671,6 +12685,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-22T13:39:02.692184+00:00",
-  "total_solved": 869
+  "last_updated": "2026-06-23T11:22:37.203740+00:00",
+  "total_solved": 870
 }
