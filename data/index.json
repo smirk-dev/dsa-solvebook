@@ -11972,6 +11972,20 @@
       "submission_id": "1737403168"
     },
     {
+      "id": "3964",
+      "title": "Number of ZigZag Arrays II",
+      "slug": "number-of-zigzag-arrays-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Math",
+        "Dynamic Programming"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-24",
+      "status": "solved",
+      "submission_id": "2044190157"
+    },
+    {
       "id": "3965",
       "title": "Earliest Finish Time for Land and Water Rides I",
       "slug": "earliest-finish-time-for-land-and-water-rides-i",
@@ -12685,6 +12699,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-23T11:22:37.203740+00:00",
-  "total_solved": 870
+  "last_updated": "2026-06-24T10:55:57.276034+00:00",
+  "total_solved": 871
 }
