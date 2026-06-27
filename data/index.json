@@ -10589,6 +10589,21 @@
       "submission_id": "1752617095"
     },
     {
+      "id": "3299",
+      "title": "Find the Maximum Number of Elements in Subset",
+      "slug": "find-the-maximum-number-of-elements-in-subset",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-27",
+      "status": "solved",
+      "submission_id": "2047382654"
+    },
+    {
       "id": "3325",
       "title": "Find the Largest Area of Square Inside Two Rectangles",
       "slug": "find-the-largest-area-of-square-inside-two-rectangles",
@@ -12356,6 +12371,43 @@
       "submission_id": "2021842009"
     },
     {
+      "id": "4074",
+      "title": "Count Subarrays With Majority Element I",
+      "slug": "count-subarrays-with-majority-element-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Segment Tree",
+        "Merge Sort",
+        "Counting",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-27",
+      "status": "solved",
+      "submission_id": "2047382306"
+    },
+    {
+      "id": "4075",
+      "title": "Count Subarrays With Majority Element II",
+      "slug": "count-subarrays-with-majority-element-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Divide and Conquer",
+        "Segment Tree",
+        "Merge Sort",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-27",
+      "status": "solved",
+      "submission_id": "2047381645"
+    },
+    {
       "id": "4091",
       "title": "Find Golden Hour Customers",
       "slug": "find-golden-hour-customers",
@@ -12699,6 +12751,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-24T10:55:57.276034+00:00",
-  "total_solved": 871
+  "last_updated": "2026-06-27T07:22:50.243059+00:00",
+  "total_solved": 874
 }
