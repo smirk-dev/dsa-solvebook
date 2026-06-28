@@ -8072,6 +8072,21 @@
       "submission_id": "1718228455"
     },
     {
+      "id": "1956",
+      "title": "Maximum Element After Decreasing and Rearranging",
+      "slug": "maximum-element-after-decreasing-and-rearranging",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Greedy",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-28",
+      "status": "solved",
+      "submission_id": "2048466375"
+    },
+    {
       "id": "1961",
       "title": "Maximum Ice Cream Bars",
       "slug": "maximum-ice-cream-bars",
@@ -12751,6 +12766,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-27T07:22:50.243059+00:00",
-  "total_solved": 874
+  "last_updated": "2026-06-28T04:19:11.816779+00:00",
+  "total_solved": 875
 }
