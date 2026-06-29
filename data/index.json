@@ -8446,6 +8446,20 @@
       "submission_id": "1874880602"
     },
     {
+      "id": "2099",
+      "title": "Number of Strings That Appear as Substrings in Word",
+      "slug": "number-of-strings-that-appear-as-substrings-in-word",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-06-29",
+      "status": "solved",
+      "submission_id": "2050529716"
+    },
+    {
       "id": "2101",
       "title": "Last Day Where You Can Still Cross",
       "slug": "last-day-where-you-can-still-cross",
@@ -12766,6 +12780,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-28T04:19:11.816779+00:00",
-  "total_solved": 875
+  "last_updated": "2026-06-29T21:38:17.461234+00:00",
+  "total_solved": 876
 }
