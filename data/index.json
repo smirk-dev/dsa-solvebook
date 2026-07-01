@@ -10150,6 +10150,24 @@
       "submission_id": "1942564519"
     },
     {
+      "id": "2914",
+      "title": "Find the Safest Path in a Grid",
+      "slug": "find-the-safest-path-in-a-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Breadth-First Search",
+        "Union-Find",
+        "Heap (Priority Queue)",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-01",
+      "status": "solved",
+      "submission_id": "2051944523"
+    },
+    {
       "id": "2978",
       "title": "Check if Strings Can be Made Equal With Operations II",
       "slug": "check-if-strings-can-be-made-equal-with-operations-ii",
@@ -12780,6 +12798,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-06-29T21:38:17.461234+00:00",
-  "total_solved": 876
+  "last_updated": "2026-07-01T11:28:14.488052+00:00",
+  "total_solved": 877
 }
