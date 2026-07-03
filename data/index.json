@@ -10949,6 +10949,24 @@
       "submission_id": "1965529507"
     },
     {
+      "id": "3558",
+      "title": "Find a Safe Walk Through a Grid",
+      "slug": "find-a-safe-walk-through-a-grid",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Breadth-First Search",
+        "Graph Theory",
+        "Heap (Priority Queue)",
+        "Matrix",
+        "Shortest Path"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-03",
+      "status": "solved",
+      "submission_id": "2054196574"
+    },
+    {
       "id": "3605",
       "title": "Construct the Minimum Bitwise Array I",
       "slug": "construct-the-minimum-bitwise-array-i",
@@ -11822,6 +11840,25 @@
       "date_solved": "2026-04-01",
       "status": "solved",
       "submission_id": "1965528609"
+    },
+    {
+      "id": "3919",
+      "title": "Network Recovery Pathways",
+      "slug": "network-recovery-pathways",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Binary Search",
+        "Dynamic Programming",
+        "Graph Theory",
+        "Topological Sort",
+        "Heap (Priority Queue)",
+        "Shortest Path"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-03",
+      "status": "solved",
+      "submission_id": "2054195579"
     },
     {
       "id": "3921",
@@ -12798,6 +12835,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-01T11:28:14.488052+00:00",
-  "total_solved": 877
+  "last_updated": "2026-07-03T04:57:38.694384+00:00",
+  "total_solved": 879
 }
