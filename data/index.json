@@ -6129,6 +6129,21 @@
       "submission_id": "1830339530"
     },
     {
+      "id": "1234",
+      "title": "Number of Paths with Max Score",
+      "slug": "number-of-paths-with-max-score",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Dynamic Programming",
+        "Matrix"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-05",
+      "status": "solved",
+      "submission_id": "2056443581"
+    },
+    {
       "id": "1236",
       "title": "N-th Tribonacci Number",
       "slug": "n-th-tribonacci-number",
@@ -12835,6 +12850,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-03T04:57:38.694384+00:00",
-  "total_solved": 879
+  "last_updated": "2026-07-05T03:56:54.972983+00:00",
+  "total_solved": 880
 }
