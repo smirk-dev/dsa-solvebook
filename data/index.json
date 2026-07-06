@@ -6115,6 +6115,20 @@
       "submission_id": "1820282757"
     },
     {
+      "id": "1222",
+      "title": "Remove Covered Intervals",
+      "slug": "remove-covered-intervals",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-06",
+      "status": "solved",
+      "submission_id": "2057650712"
+    },
+    {
       "id": "1229",
       "title": "Shortest Path with Alternating Colors",
       "slug": "shortest-path-with-alternating-colors",
@@ -12850,6 +12864,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-05T03:56:54.972983+00:00",
-  "total_solved": 880
+  "last_updated": "2026-07-06T12:08:40.327648+00:00",
+  "total_solved": 881
 }
