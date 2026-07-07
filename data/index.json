@@ -12585,6 +12585,19 @@
       "submission_id": "2022867847"
     },
     {
+      "id": "4135",
+      "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+      "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+      "difficulty": "Easy",
+      "tags": [
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-07",
+      "status": "solved",
+      "submission_id": "2058882238"
+    },
+    {
       "id": "4139",
       "title": "Minimum Absolute Distance Between Mirror Pairs",
       "slug": "minimum-absolute-distance-between-mirror-pairs",
@@ -12864,6 +12877,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-06T12:08:40.327648+00:00",
-  "total_solved": 881
+  "last_updated": "2026-07-07T07:45:30.543637+00:00",
+  "total_solved": 882
 }
