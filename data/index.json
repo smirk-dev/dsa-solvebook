@@ -11570,6 +11570,23 @@
       "submission_id": "1848274683"
     },
     {
+      "id": "3838",
+      "title": "Path Existence Queries in a Graph I",
+      "slug": "path-existence-queries-in-a-graph-i",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Binary Search",
+        "Union-Find",
+        "Graph Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-09",
+      "status": "solved",
+      "submission_id": "2061306536"
+    },
+    {
       "id": "3842",
       "title": "Number of Ways to Assign Edge Weights II",
       "slug": "number-of-ways-to-assign-edge-weights-ii",
@@ -12892,6 +12909,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-08T06:32:28.523450+00:00",
-  "total_solved": 883
+  "last_updated": "2026-07-09T07:46:59.828828+00:00",
+  "total_solved": 884
 }
