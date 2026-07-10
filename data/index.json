@@ -11666,6 +11666,26 @@
       "submission_id": "1959586174"
     },
     {
+      "id": "3852",
+      "title": "Path Existence Queries in a Graph II",
+      "slug": "path-existence-queries-in-a-graph-ii",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Binary Search",
+        "Dynamic Programming",
+        "Greedy",
+        "Bit Manipulation",
+        "Graph Theory",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-10",
+      "status": "solved",
+      "submission_id": "2062485971"
+    },
+    {
       "id": "3854",
       "title": "Maximum Profit from Trading Stocks with Discounts",
       "slug": "maximum-profit-from-trading-stocks-with-discounts",
@@ -12909,6 +12929,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-09T07:46:59.828828+00:00",
-  "total_solved": 884
+  "last_updated": "2026-07-10T07:41:01.834559+00:00",
+  "total_solved": 885
 }
