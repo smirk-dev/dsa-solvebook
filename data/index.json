@@ -6200,6 +6200,21 @@
       "submission_id": "1824004129"
     },
     {
+      "id": "1256",
+      "title": "Rank Transform of an Array",
+      "slug": "rank-transform-of-an-array",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-12",
+      "status": "solved",
+      "submission_id": "2064947639"
+    },
+    {
       "id": "1258",
       "title": "Article Views I",
       "slug": "article-views-i",
@@ -12929,6 +12944,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-10T07:41:01.834559+00:00",
-  "total_solved": 885
+  "last_updated": "2026-07-12T13:38:13.974117+00:00",
+  "total_solved": 886
 }
