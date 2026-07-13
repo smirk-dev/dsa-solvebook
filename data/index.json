@@ -6115,6 +6115,19 @@
       "submission_id": "1820282757"
     },
     {
+      "id": "1212",
+      "title": "Sequential Digits",
+      "slug": "sequential-digits",
+      "difficulty": "Medium",
+      "tags": [
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-13",
+      "status": "solved",
+      "submission_id": "2066212221"
+    },
+    {
       "id": "1222",
       "title": "Remove Covered Intervals",
       "slug": "remove-covered-intervals",
@@ -12944,6 +12957,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-12T13:38:13.974117+00:00",
-  "total_solved": 886
+  "last_updated": "2026-07-13T14:46:03.087025+00:00",
+  "total_solved": 887
 }
