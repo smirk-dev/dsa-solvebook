@@ -11052,6 +11052,22 @@
       "submission_id": "2016023508"
     },
     {
+      "id": "3608",
+      "title": "Find the Number of Subsequences With Equal GCD",
+      "slug": "find-the-number-of-subsequences-with-equal-gcd",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Math",
+        "Dynamic Programming",
+        "Number Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-14",
+      "status": "solved",
+      "submission_id": "2067268228"
+    },
+    {
       "id": "3610",
       "title": "Find X-Sum of All K-Long Subarrays I",
       "slug": "find-x-sum-of-all-k-long-subarrays-i",
@@ -12957,6 +12973,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-13T14:46:03.087025+00:00",
-  "total_solved": 887
+  "last_updated": "2026-07-14T13:56:09.630760+00:00",
+  "total_solved": 888
 }
