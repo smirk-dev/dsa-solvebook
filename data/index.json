@@ -12361,6 +12361,20 @@
       "submission_id": "1991595736"
     },
     {
+      "id": "3995",
+      "title": "GCD of Odd and Even Sums",
+      "slug": "gcd-of-odd-and-even-sums",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "Number Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-15",
+      "status": "solved",
+      "submission_id": "2067957489"
+    },
+    {
       "id": "3996",
       "title": "Find Books with Polarized Opinions",
       "slug": "find-books-with-polarized-opinions",
@@ -12973,6 +12987,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-14T13:56:09.630760+00:00",
-  "total_solved": 888
+  "last_updated": "2026-07-15T02:51:01.951759+00:00",
+  "total_solved": 889
 }
