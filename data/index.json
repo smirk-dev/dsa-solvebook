@@ -12910,6 +12910,24 @@
       "submission_id": "1965512050"
     },
     {
+      "id": "4242",
+      "title": "Sum of GCD of Formed Pairs",
+      "slug": "sum-of-gcd-of-formed-pairs",
+      "difficulty": "Medium",
+      "tags": [
+        "Array",
+        "Math",
+        "Two Pointers",
+        "Sorting",
+        "Simulation",
+        "Number Theory"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-16",
+      "status": "solved",
+      "submission_id": "2070068616"
+    },
+    {
       "id": "4245",
       "title": "Count Commas in Range",
       "slug": "count-commas-in-range",
@@ -12987,6 +13005,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-15T02:51:01.951759+00:00",
-  "total_solved": 889
+  "last_updated": "2026-07-16T17:23:38.375101+00:00",
+  "total_solved": 890
 }
