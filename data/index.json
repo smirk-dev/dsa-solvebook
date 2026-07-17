@@ -11024,6 +11024,26 @@
       "submission_id": "2054196574"
     },
     {
+      "id": "3583",
+      "title": "Sorted GCD Pair Queries",
+      "slug": "sorted-gcd-pair-queries",
+      "difficulty": "Hard",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Math",
+        "Binary Search",
+        "Combinatorics",
+        "Counting",
+        "Number Theory",
+        "Prefix Sum"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2070830456"
+    },
+    {
       "id": "3605",
       "title": "Construct the Minimum Bitwise Array I",
       "slug": "construct-the-minimum-bitwise-array-i",
@@ -13005,6 +13025,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-16T17:23:38.375101+00:00",
-  "total_solved": 890
+  "last_updated": "2026-07-17T10:03:03.175117+00:00",
+  "total_solved": 891
 }
