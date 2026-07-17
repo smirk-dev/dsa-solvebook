@@ -3916,6 +3916,65 @@
       "submission_id": "1965508151"
     },
     {
+      "id": "409",
+      "title": "Longest Palindrome",
+      "slug": "longest-palindrome",
+      "difficulty": "Easy",
+      "tags": [
+        "Hash Table",
+        "String",
+        "Greedy"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071537400"
+    },
+    {
+      "id": "412",
+      "title": "Fizz Buzz",
+      "slug": "fizz-buzz",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071537731"
+    },
+    {
+      "id": "414",
+      "title": "Third Maximum Number",
+      "slug": "third-maximum-number",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071538104"
+    },
+    {
+      "id": "415",
+      "title": "Add Strings",
+      "slug": "add-strings",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071538286"
+    },
+    {
       "id": "416",
       "title": "Partition Equal Subset Sum",
       "slug": "partition-equal-subset-sum",
@@ -3992,6 +4051,19 @@
       "submission_id": "1826050828"
     },
     {
+      "id": "434",
+      "title": "Number of Segments in a String",
+      "slug": "number-of-segments-in-a-string",
+      "difficulty": "Easy",
+      "tags": [
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071538461"
+    },
+    {
       "id": "435",
       "title": "Non-overlapping Intervals",
       "slug": "non-overlapping-intervals",
@@ -4066,6 +4138,20 @@
       "submission_id": "1830352405"
     },
     {
+      "id": "441",
+      "title": "Arranging Coins",
+      "slug": "arranging-coins",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "Binary Search"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071538656"
+    },
+    {
       "id": "443",
       "title": "String Compression",
       "slug": "string-compression",
@@ -4124,6 +4210,22 @@
       "submission_id": "1824018019"
     },
     {
+      "id": "455",
+      "title": "Assign Cookies",
+      "slug": "assign-cookies",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Two Pointers",
+        "Greedy",
+        "Sorting"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071538852"
+    },
+    {
       "id": "459",
       "title": "Repeated Substring Pattern",
       "slug": "repeated-substring-pattern",
@@ -4154,6 +4256,19 @@
       "submission_id": "1951119242"
     },
     {
+      "id": "461",
+      "title": "Hamming Distance",
+      "slug": "hamming-distance",
+      "difficulty": "Easy",
+      "tags": [
+        "Bit Manipulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071539144"
+    },
+    {
       "id": "463",
       "title": "Island Perimeter",
       "slug": "island-perimeter",
@@ -4168,6 +4283,19 @@
       "date_solved": "2025-11-15",
       "status": "solved",
       "submission_id": "1830338453"
+    },
+    {
+      "id": "476",
+      "title": "Number Complement",
+      "slug": "number-complement",
+      "difficulty": "Easy",
+      "tags": [
+        "Bit Manipulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071539337"
     },
     {
       "id": "481",
@@ -4210,6 +4338,19 @@
       "submission_id": "1829401454"
     },
     {
+      "id": "492",
+      "title": "Construct the Rectangle",
+      "slug": "construct-the-rectangle",
+      "difficulty": "Easy",
+      "tags": [
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071539548"
+    },
+    {
       "id": "493",
       "title": "Reverse Pairs",
       "slug": "reverse-pairs",
@@ -4244,6 +4385,36 @@
       "submission_id": "1830357648"
     },
     {
+      "id": "495",
+      "title": "Teemo Attacking",
+      "slug": "teemo-attacking",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Simulation"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071539720"
+    },
+    {
+      "id": "496",
+      "title": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "Stack",
+        "Monotonic Stack"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071539929"
+    },
+    {
       "id": "498",
       "title": "Diagonal Traverse",
       "slug": "diagonal-traverse",
@@ -4257,6 +4428,37 @@
       "date_solved": "2025-08-25",
       "status": "solved",
       "submission_id": "1747980954"
+    },
+    {
+      "id": "500",
+      "title": "Keyboard Row",
+      "slug": "keyboard-row",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Hash Table",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071540404"
+    },
+    {
+      "id": "501",
+      "title": "Find Mode in Binary Search Tree",
+      "slug": "find-mode-in-binary-search-tree",
+      "difficulty": "Easy",
+      "tags": [
+        "Tree",
+        "Depth-First Search",
+        "Binary Search Tree",
+        "Binary Tree"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071540627"
     },
     {
       "id": "502",
@@ -4273,6 +4475,48 @@
       "date_solved": "2025-11-10",
       "status": "solved",
       "submission_id": "1826048483"
+    },
+    {
+      "id": "504",
+      "title": "Base 7",
+      "slug": "base-7",
+      "difficulty": "Easy",
+      "tags": [
+        "Math",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071540892"
+    },
+    {
+      "id": "506",
+      "title": "Relative Ranks",
+      "slug": "relative-ranks",
+      "difficulty": "Easy",
+      "tags": [
+        "Array",
+        "Sorting",
+        "Heap (Priority Queue)"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071541108"
+    },
+    {
+      "id": "507",
+      "title": "Perfect Number",
+      "slug": "perfect-number",
+      "difficulty": "Easy",
+      "tags": [
+        "Math"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071541293"
     },
     {
       "id": "516",
@@ -4300,6 +4544,19 @@
       "date_solved": "2025-11-14",
       "status": "solved",
       "submission_id": "1829412679"
+    },
+    {
+      "id": "521",
+      "title": "Longest Uncommon Subsequence I",
+      "slug": "longest-uncommon-subsequence-i",
+      "difficulty": "Easy",
+      "tags": [
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071541474"
     },
     {
       "id": "523",
@@ -4335,6 +4592,20 @@
       "submission_id": "1825839339"
     },
     {
+      "id": "541",
+      "title": "Reverse String II",
+      "slug": "reverse-string-ii",
+      "difficulty": "Easy",
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071541702"
+    },
+    {
       "id": "543",
       "title": "Diameter of Binary Tree",
       "slug": "diameter-of-binary-tree",
@@ -4364,6 +4635,33 @@
       "date_solved": "2025-11-08",
       "status": "solved",
       "submission_id": "1823992219"
+    },
+    {
+      "id": "551",
+      "title": "Student Attendance Record I",
+      "slug": "student-attendance-record-i",
+      "difficulty": "Easy",
+      "tags": [
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071542405"
+    },
+    {
+      "id": "557",
+      "title": "Reverse Words in a String III",
+      "slug": "reverse-words-in-a-string-iii",
+      "difficulty": "Easy",
+      "tags": [
+        "Two Pointers",
+        "String"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-17",
+      "status": "solved",
+      "submission_id": "2071542615"
     },
     {
       "id": "560",
@@ -13025,6 +13323,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-17T10:03:03.175117+00:00",
-  "total_solved": 891
+  "last_updated": "2026-07-17T21:01:33.309176+00:00",
+  "total_solved": 912
 }
