@@ -6345,6 +6345,22 @@
       "submission_id": "1830251362"
     },
     {
+      "id": "1159",
+      "title": "Smallest Subsequence of Distinct Characters",
+      "slug": "smallest-subsequence-of-distinct-characters",
+      "difficulty": "Medium",
+      "tags": [
+        "String",
+        "Stack",
+        "Greedy",
+        "Monotonic Stack"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-19",
+      "status": "solved",
+      "submission_id": "2073210478"
+    },
+    {
       "id": "1160",
       "title": "Letter Tile Possibilities",
       "slug": "letter-tile-possibilities",
@@ -13323,6 +13339,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-17T21:01:33.309176+00:00",
-  "total_solved": 912
+  "last_updated": "2026-07-19T09:55:50.919764+00:00",
+  "total_solved": 913
 }
