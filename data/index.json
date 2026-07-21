@@ -11873,6 +11873,20 @@
       "submission_id": "1965523224"
     },
     {
+      "id": "3805",
+      "title": "Maximize Active Section with Trade I",
+      "slug": "maximize-active-section-with-trade-i",
+      "difficulty": "Medium",
+      "tags": [
+        "String",
+        "Enumeration"
+      ],
+      "language": "java",
+      "date_solved": "2026-07-21",
+      "status": "solved",
+      "submission_id": "2075742839"
+    },
+    {
       "id": "3816",
       "title": "DNA Pattern Recognition ",
       "slug": "dna-pattern-recognition",
@@ -13354,6 +13368,6 @@
       "submission_id": "1965509071"
     }
   ],
-  "last_updated": "2026-07-20T10:57:07.215966+00:00",
-  "total_solved": 914
+  "last_updated": "2026-07-21T14:04:46.501873+00:00",
+  "total_solved": 915
 }
